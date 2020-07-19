@@ -39,24 +39,7 @@ data %>%
   bind_rows(mutate(reported_cases, region = "National")) %>%
   mutate(import_status = "local") -> reported_cases_region
 
-# delay ests (pre computed)
-# linelist <- 
-#   data.table::fread("https://raw.githubusercontent.com/epiforecasts/NCoVUtils/master/data-raw/linelist.csv")
-# delays <- linelist[!is.na(date_onset_symptoms)][, 
-#                                                 .(report_delay = as.numeric(lubridate::dmy(date_confirmation) - 
-#                                                                               as.Date(lubridate::dmy(date_onset_symptoms))))]
-# delays <- delays$report_delay
-# 
-# # fit the confirmation delays (this takes time so outputting the line list & bootstrapped ests)
-# delay_defs <- EpiNow::get_dist_def(delays,
-#                                    bootstraps = 100, 
-#                                    samples = 1000)
-# delay_out <- list(delay_defs = delay_defs, 
-#                    metadata = list(date_produced = Sys.Date(), 
-#                                    range_dates = range(linelist$date_confirmation, na.rm = TRUE)))
-# saveRDS(delay_out, "output/delay_defs.rds")
-# write_csv(linelist, paste0("output/linelist_", Sys.Date(), ".csv"))
-
+# Delay distribution
 delay_defs <- readRDS("output/delay_defs.rds")[[1]]
 delay_defs <- delay_defs[1:500, ]
 
@@ -93,3 +76,14 @@ EpiNow::regional_summary(results_dir = "output/rt_ests",
                          region_scale = "Region",
                          csv_region_label = "region",
                          log_cases = TRUE)
+
+# Rt estimates
+rt_ests <- read_csv("output/rt_ests-summary/rt.csv")
+write_csv(rt_ests, "latest/rt_ests.csv")
+
+# Summary table
+rt_summary <- readRDS("output/rt_ests-summary/summary_table.rds")
+rt_summary %>%
+  select(-`New confirmed cases by infection date`) %>%
+  mutate(date = Sys.Date()) -> rt_summary
+write_csv(rt_summary, "latest/rt_summary.csv")

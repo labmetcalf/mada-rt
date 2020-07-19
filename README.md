@@ -1,6 +1,6 @@
-# Estimating R_t for Covid-19 in Madagascar
+# Estimating R<sub>t</sub> for Covid-19 in Madagascar
 
-Here we estimate the time varying effective reproductive number of R_t for Covid-19 in Madagascar. 
+Here we estimate the time varying effective reproductive number of R<sub>t</sub> for Covid-19 in Madagascar. 
 
 ## Methods
 
