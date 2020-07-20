@@ -5,18 +5,20 @@
 # remotes::install_github("epiforecasts/EpiSoon")
 # install.packages("forecastHybrid)
 
+print(Sys.getenv()["SLURM_NTASKS"])
+
+cl <- parallel::makeCluster(as.numeric(Sys.getenv()["SLURM_NTASKS"]) - 1) 
+
 # packages
 library(EpiNow)
 library(EpiSoon)
 library(forecastHybrid)
 library(data.table)
-library(googlesheets4)
 library(tidyverse)
 library(lubridate)
 
 # data (do national/Analamanga/Atsinanana)
-gs4_deauth()
-data   <- read_sheet("https://docs.google.com/spreadsheets/d/1oQJl4HiTviKAAhCjMmg0ipGcO79cZg6gSHrdTuQID_w/edit#gid=0", sheet = 2)
+data   <- read_csv("output/mada_cases.csv")
 
 data %>%
   mutate(date = ymd(Date)) %>%
@@ -50,7 +52,7 @@ incubation_defs <- EpiNow::lognorm_dist_def(mean = EpiNow::covid_incubation_peri
                                             sd_sd = EpiNow::covid_incubation_period[1, ]$sd_sd,
                                             max_value = 30, samples = 500)
 
-future::plan("sequential")
+future::plan(future::cluster, workers = cl)
 
 # Run the pipeline (For national & regional)
 EpiNow::regional_rt_pipeline(
@@ -87,3 +89,5 @@ rt_summary %>%
   select(-`New confirmed cases by infection date`) %>%
   mutate(date = Sys.Date()) -> rt_summary
 write_csv(rt_summary, "latest/rt_summary.csv")
+
+parallel::stopCluster(cl)
