@@ -79,8 +79,17 @@ EpiNow::regional_summary(results_dir = "output/rt_ests",
                          csv_region_label = "region",
                          log_cases = TRUE)
 
-# Rt estimates
-rt_ests <- read_csv("output/rt_ests-summary/rt.csv")
+# Rt estimates for plotting
+files <- list.files("output/rt_ests", recursive = TRUE, full.names = TRUE)
+reff_files <- files[grep("latest/summarised_reff.rds", files)]
+reffs <- lapply(reff_files, 
+                function(x) {
+                  out <- readRDS(x) 
+                  out$region <- unlist(strsplit(x, "/"))[[3]]
+                  out$R0_range <- NULL
+                  return(out)
+                })
+data.table::rbindlist(reffs) -> rt_ests
 write_csv(rt_ests, "latest/rt_ests.csv")
 
 # Summary table
