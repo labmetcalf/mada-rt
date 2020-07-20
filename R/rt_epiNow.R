@@ -14,11 +14,13 @@ library(EpiNow)
 library(EpiSoon)
 library(forecastHybrid)
 library(data.table)
+library(googlesheets4)
 library(tidyverse)
 library(lubridate)
 
 # data (do national/Analamanga/Atsinanana)
-data   <- read_csv("output/mada_cases.csv")
+gs4_deauth()
+data   <- read_sheet("https://docs.google.com/spreadsheets/d/1oQJl4HiTviKAAhCjMmg0ipGcO79cZg6gSHrdTuQID_w/edit#gid=0", sheet = 2)
 
 data %>%
   mutate(date = ymd(Date)) %>%
