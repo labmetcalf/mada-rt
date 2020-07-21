@@ -26,6 +26,7 @@ data   <- read_sheet("https://docs.google.com/spreadsheets/d/1oQJl4HiTviKAAhCjMm
 
 data %>%
   mutate(date = ymd(Date)) %>%
+  filter(date < (Sys.Date() - 3)) %>% # dont include the past three days
   group_by(date) %>%
   summarise(confirm = sum(Type == "N")) %>%
   complete(date = seq.Date(min(date), max(date), by = "days"), 
