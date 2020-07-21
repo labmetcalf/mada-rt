@@ -6,8 +6,10 @@
 # install.packages("forecastHybrid)
 
 print(Sys.getenv()["SLURM_NTASKS"])
+if(is.na(Sys.getenv()["SLURM_NTASKS"])) cores <- parallel::detectCores() - 1
+if(!is.na(Sys.getenv()["SLURM_NTASKS"])) cores <- as.numeric(Sys.getenv()["SLURM_NTASKS"]) - 1
 
-cl <- parallel::makeCluster(as.numeric(Sys.getenv()["SLURM_NTASKS"]) - 1) 
+cl <- parallel::makeCluster(cores) 
 
 # packages
 library(EpiNow)
@@ -73,6 +75,10 @@ EpiNow::regional_rt_pipeline(
     model_params = list(models = "aefz", weights = "equal"),
     forecast_params = list(PI.combination = "mean"), ...)})
 
+parallel::stopCluster(cl)
+
+future::plan("sequential")
+
 # Then the summaries
 EpiNow::regional_summary(results_dir = "output/rt_ests",
                          summary_dir = "output/rt_ests-summary",
@@ -112,5 +118,3 @@ rt_summary %>%
   select(-`New confirmed cases by infection date`) %>%
   mutate(date = Sys.Date()) -> rt_summary
 write_csv(rt_summary, "latest/rt_summary.csv")
-
-parallel::stopCluster(cl)
