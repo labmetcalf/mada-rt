@@ -94,6 +94,18 @@ reffs <- lapply(reff_files,
 data.table::rbindlist(reffs) -> rt_ests
 write_csv(rt_ests, "latest/rt_ests.csv")
 
+# Rt estimates for plotting
+files <- list.files("output/rt_ests", recursive = TRUE, full.names = TRUE)
+nowcast_files <- files[grep("latest/summarised_nowcast.rds", files)]
+nowcast <- lapply(nowcast_files, 
+                function(x) {
+                  out <- readRDS(x) 
+                  out$region <- unlist(strsplit(x, "/"))[[3]]
+                  return(out)
+                })
+data.table::rbindlist(nowcast) -> nowcast
+write_csv(nowcast, "latest/nowcast.csv")
+
 # Summary table
 rt_summary <- readRDS("output/rt_ests-summary/summary_table.rds")
 rt_summary %>%
