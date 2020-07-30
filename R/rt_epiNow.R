@@ -117,5 +117,5 @@ write_csv(nowcast, "latest/nowcast.csv")
 rt_summary <- readRDS("output/rt_ests-summary/summary_table.rds")
 rt_summary %>%
   select(-`New confirmed cases by infection date`) %>%
-  mutate(date = Sys.Date()) -> rt_summary
+  mutate(date = readRDS("output/rt_ests-summary/latest_date.rds")) -> rt_summary
 write_csv(rt_summary, "latest/rt_summary.csv")
