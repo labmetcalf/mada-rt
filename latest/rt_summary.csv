@@ -1,4 +1,4 @@
 Region,Expected change in daily cases,Effective reproduction no.,Doubling/halving time (days),date,date_ests
-Analamanga,Decreasing,0.8 (0.7 -- 0.9),-13 (-30 -- -8.3),2020-08-02,2020-08-13
-Atsinanana,Unsure,1.6 (0.2 -- 2.9),9.7 (1.6 -- -3.2),2020-08-02,2020-08-13
-National,Likely decreasing,0.9 (0.8 -- 1),-34 (220 -- -15),2020-08-02,2020-08-13
+Analamanga,Decreasing,0.6 (0.5 -- 0.8),-5.7 (-9.2 -- -4.2),2020-08-07,2020-08-18
+Atsinanana,Unsure,1.6 (0.2 -- 2.8),6.4 (1.5 -- -3),2020-08-07,2020-08-18
+National,Decreasing,0.8 (0.7 -- 0.9),-14 (-30 -- -8.8),2020-08-07,2020-08-18
