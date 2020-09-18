@@ -2,6 +2,8 @@
 
 cd Documents/Projects/mada-rt
 
+git checkout master
+
 # Whichever one you want to be the home page output as index.html
 Rscript R/rt_epiNow.R
 
