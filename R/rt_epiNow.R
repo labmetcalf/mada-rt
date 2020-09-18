@@ -12,7 +12,7 @@ if(!is.na(Sys.getenv()["SLURM_NTASKS"])) cores <- as.numeric(Sys.getenv()["SLURM
 cl <- parallel::makeCluster(cores) 
 
 # packages
-library(EpiNow)
+library(EpiNow2)
 library(EpiSoon)
 library(forecastHybrid)
 library(data.table)
@@ -34,6 +34,34 @@ data %>%
   as.data.table(.) %>%
   mutate(import_status = "local") -> reported_cases
 
+reported_cases %>%
+  group_by(date) %>%
+  summarize(confirm = sum(confirm, na.rm = TRUE)) -> reported_cases2
+
+# Delays
+reporting_delay <- EpiNow2::bootstrapped_dist_fit(rlnorm(100, log(6), 1))
+reporting_delay$max <- 30
+generation_time <- list(mean = EpiNow2::covid_generation_times[1, ]$mean,
+                        mean_sd = EpiNow2::covid_generation_times[1, ]$mean_sd,
+                        sd = EpiNow2::covid_generation_times[1, ]$sd,
+                        sd_sd = EpiNow2::covid_generation_times[1, ]$sd_sd,
+                        max = 30)
+
+incubation_period <- list(mean = EpiNow2::covid_incubation_period[1, ]$mean,
+                          mean_sd = EpiNow2::covid_incubation_period[1, ]$mean_sd,
+                          sd = EpiNow2::covid_incubation_period[1, ]$sd,
+                          sd_sd = EpiNow2::covid_incubation_period[1, ]$sd_sd,
+                          max = 30)
+
+
+estimates <- EpiNow2::epinow(reported_cases = reported_cases2, 
+                             generation_time = generation_time,
+                             delays = list(incubation_period, reporting_delay),
+                             horizon = 7, samples = 2000, warmup = 500, 
+                             cores = 1, chains = 4,
+                             adapt_delta = 0.95)
+
+
 data %>%
   filter(Location4 %in% c("Analamanga", "Atsinanana")) %>%
   mutate(date = ymd(Date), region = Location4) %>%
@@ -47,6 +75,9 @@ data %>%
   mutate(import_status = "local") -> reported_cases_region
 
 # Delay distribution
+
+
+
 delay_defs <- readRDS("output/delay_defs.rds")[[1]]
 delay_defs <- delay_defs[1:500, ]
 
