@@ -1,4 +1,4 @@
 Region,Expected change in daily cases,Effective reproduction no.,Doubling/halving time (days),date,date_ests
-Analamanga,Unsure,1.2 (0.7 -- 1.7),12 (3.6 -- -8.7),2020-09-27,2020-10-08
-Atsinanana,Likely increasing,1.8 (0.4 -- 3),4.5 (1.4 -- -3.7),2020-09-27,2020-10-08
-National,Unsure,1.1 (0.8 -- 1.3),42 (8.9 -- -15),2020-09-27,2020-10-08
+Analamanga,Unsure,1 (0.5 -- 1.4),-24 (5.8 -- -3.8),2020-10-03,2020-10-14
+Atsinanana,Likely increasing,2.8 (0.2 -- 5.2),1.1 (1.6 -- -1.8),2020-10-03,2020-10-14
+National,Unsure,0.9 (0.7 -- 1.2),-29 (15 -- -7.5),2020-10-03,2020-10-14
