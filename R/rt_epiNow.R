@@ -6,7 +6,7 @@ arg <- commandArgs(trailingOnly = TRUE)
 
 # Set up on cluster ------
 source("R/utils.R")
-set_up <- setup_cl(mpi = FALSE)
+set_up <- setup_cl(mpi = FALSE, type = "local")
 
 cl <- make_cl(set_up$ncores)
 print(paste("Cluster size:", cl_size(cl)))
