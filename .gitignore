@@ -4,3 +4,6 @@
 .Ruserdata
 output/rt*
 mada-rt.Rproj
+renv
+cron-log
+
