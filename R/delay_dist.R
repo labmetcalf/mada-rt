@@ -1,28 +1,26 @@
-# Sample delay distribution (this takes a while so only doing this once)
+# From https://github.com/epiforecasts/covid-rt-estimates/blob/master/R/update-delays.R
 
-# packages
-library(EpiNow)
-library(EpiSoon)
-library(forecastHybrid)
-library(data.table)
-library(googlesheets4)
-library(tidyverse)
-library(lubridate)
+# Packages -----
+require(EpiNow2)
+require(covidregionaldata)
+require(data.table)
+require(future)
+require(lubridate)
 
-# delay ests (pre computed)
-linelist <-
-  data.table::fread("https://raw.githubusercontent.com/epiforecasts/NCoVUtils/master/data-raw/linelist.csv")
-delays <- linelist[!is.na(date_onset_symptoms)][,
-                                                .(report_delay = as.numeric(lubridate::dmy(date_confirmation) -
-                                                                              as.Date(lubridate::dmy(date_onset_symptoms))))]
-delays <- delays$report_delay
 
-# fit the confirmation delays (this takes time so outputting the line list & bootstrapped ests)
-delay_defs <- EpiNow::get_dist_def(delays,
-                                   bootstraps = 100,
-                                   samples = 1000)
-delay_out <- list(delay_defs = delay_defs,
-                   metadata = list(date_produced = Sys.Date(),
-                                   range_dates = range(linelist$date_confirmation, na.rm = TRUE)))
-saveRDS(delay_out, "output/delay_defs.rds")
-write_csv(linelist, paste0("output/linelist_", Sys.Date(), ".csv"))
+# Set up parallel -----
+if (!interactive()) {
+  # If running as a script enable this
+  options(future.fork.enable = TRUE)
+}
+
+plan(multiprocess)
+
+# Fit delay from onset to admission ----
+report_delay <- covidregionaldata::get_linelist(report_delay_only = TRUE)
+report_delay <- data.table::as.data.table(report_delay)[!(country %in% c("Mexico", "Phillipines"))]
+
+onset_to_admission_delay <- EpiNow2::bootstrapped_dist_fit(report_delay$days_onset_to_report, bootstraps = 100, 
+                                                           bootstrap_samples = 250, max_value = 30)
+
+saveRDS(onset_to_admission_delay, here::here("data", "onset_to_admission_delay.rds"))

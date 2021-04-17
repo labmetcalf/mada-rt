@@ -13,140 +13,71 @@ cl <- parallel::makeCluster(cores)
 
 # packages
 library(EpiNow2)
-library(EpiSoon)
-library(forecastHybrid)
 library(data.table)
 library(googlesheets4)
-library(tidyverse)
 library(lubridate)
+library(dplyr)
 
-# data (do national/Analamanga/Atsinanana)
+# delay distributions ----
+reporting_delay <- estimate_delay(rlnorm(1000,  log(3), 1),
+                                  max_value = 15, bootstraps = 1)
+generation_time <- get_generation_time(disease = "SARS-CoV-2", source = "ganyani")
+incubation_period <- get_incubation_period(disease = "SARS-CoV-2", source = "lauer")
+
+# data -----
 gs4_deauth()
-data   <- read_sheet("https://docs.google.com/spreadsheets/d/1oQJl4HiTviKAAhCjMmg0ipGcO79cZg6gSHrdTuQID_w/edit#gid=0", sheet = 2)
+data   <- read_sheet("https://docs.google.com/spreadsheets/d/1oQJl4HiTviKAAhCjMmg0ipGcO79cZg6gSHrdTuQID_w/edit#gid=0",
+                     sheet = 9)
 
+# Filter data to a max 4 month window (excluding the past 3 days)
+# And starting from the date they began daily reporting again
+date_min <- case_when(Sys.Date() - 4 * 30 > ymd("2021-03-01") ~ ymd(Sys.Date() - 4 * 30),
+                      TRUE ~ ymd("2021-03-01"))
 data %>%
-  mutate(date = ymd(Date)) %>%
-  filter(date < (Sys.Date() - 3)) %>% # dont include the past three days
-  group_by(date) %>%
-  summarise(confirm = sum(Type == "N")) %>%
-  complete(date = seq.Date(min(date), max(date), by = "days"), 
-           fill = list(confirm = 0)) %>%
-  as.data.table(.) %>%
-  mutate(import_status = "local") -> reported_cases
-
-reported_cases %>%
-  group_by(date) %>%
-  summarize(confirm = sum(confirm, na.rm = TRUE)) -> reported_cases2
-
-# Delays
-reporting_delay <- EpiNow2::bootstrapped_dist_fit(rlnorm(100, log(6), 1))
-reporting_delay$max <- 30
-generation_time <- list(mean = EpiNow2::covid_generation_times[1, ]$mean,
-                        mean_sd = EpiNow2::covid_generation_times[1, ]$mean_sd,
-                        sd = EpiNow2::covid_generation_times[1, ]$sd,
-                        sd_sd = EpiNow2::covid_generation_times[1, ]$sd_sd,
-                        max = 30)
-
-incubation_period <- list(mean = EpiNow2::covid_incubation_period[1, ]$mean,
-                          mean_sd = EpiNow2::covid_incubation_period[1, ]$mean_sd,
-                          sd = EpiNow2::covid_incubation_period[1, ]$sd,
-                          sd_sd = EpiNow2::covid_incubation_period[1, ]$sd_sd,
-                          max = 30)
-
-
-estimates <- EpiNow2::epinow(reported_cases = reported_cases2, 
-                             generation_time = generation_time,
-                             delays = list(incubation_period, reporting_delay),
-                             horizon = 7, samples = 2000, warmup = 500, 
-                             cores = 1, chains = 4,
-                             adapt_delta = 0.95)
-
-
-data %>%
-  filter(Location4 %in% c("Analamanga", "Atsinanana")) %>%
-  mutate(date = ymd(Date), region = Location4) %>%
+  mutate(date = ymd(week)) %>%
+  filter(date < Sys.Date() & date > date_min) %>% # just including today since these are date reports
   group_by(date, region) %>%
-  summarise(confirm = sum(Type == "N")) %>%
-  ungroup() %>%
-  complete(date = seq.Date(min(date), max(date), by = "days"), region,
-           fill = list(confirm = 0)) %>%
-  as.data.table(.) %>%
-  bind_rows(mutate(reported_cases, region = "National")) %>%
-  mutate(import_status = "local") -> reported_cases_region
+  summarise(confirm = sum(cases)) %>%
+  tidyr::complete(date = seq.Date(min(date), max(date), by = "days"), 
+                  fill = list(confirm = 0)) -> reported_cases_regional
 
-# Delay distribution
+reported_cases_regional %>%
+  group_by(date) %>%
+  summarize(confirm = sum(confirm, na.rm = TRUE)) -> reported_cases_natl
+
+# Key outputs = nowcast, rt_ests, rt_summary
+
+# Run national ----
+system.time({
+  estimates <- epinow(reported_cases = reported_cases_natl, 
+                      generation_time = generation_time,
+                      delays = delay_opts(incubation_period, reporting_delay),
+                      stan = stan_opts(samples = 4000, 
+                                       warmup = 2000,
+                                       cores = 3))
+})
+
+agp <- estimate_infections(reported_cases = reported_cases_natl, 
+                           generation_time = generation_time,
+                           delays = delay_opts(incubation_period, reporting_delay),
+                           rt = rt_opts(prior = list(mean = 2, sd = 0.1)),
+                           gp = gp_opts(ls_min = 10, basis_prop = 0.1),
+                           stan = stan_opts(control = list(adapt_delta = 0.95)),
+                           CrIs = c(0.5, 0.75))
+
+backcalc <- estimate_infections(reported_cases = reported_cases_natl, 
+                                generation_time = generation_time,
+                                delays = delay_opts(incubation_period, reporting_delay),
+                                rt = NULL, backcalc = backcalc_opts(prior = "none"),
+                                obs = obs_opts(scale = list(mean = 0.4, sd = 0.05)),
+                                horizon = 7)
+plot(backcalc)
+
+# Rt projected into the future using the Gaussian process
+project_rt <- estimate_infections(reported_cases = reported_cases_natl, generation_time = generation_time,
+                                  delays = delay_opts(incubation_period, reporting_delay),
+                                  rt = rt_opts(prior = list(mean = 2, sd = 0.1), 
+                                               future = "project"))
+plot(project_rt)
 
 
-
-delay_defs <- readRDS("output/delay_defs.rds")[[1]]
-delay_defs <- delay_defs[1:500, ]
-
-# fit the inc delays 
-incubation_defs <- EpiNow::lognorm_dist_def(mean = EpiNow::covid_incubation_period[1, ]$mean,
-                                            mean_sd = EpiNow::covid_incubation_period[1, ]$mean_sd,
-                                            sd = EpiNow::covid_incubation_period[1, ]$sd,
-                                            sd_sd = EpiNow::covid_incubation_period[1, ]$sd_sd,
-                                            max_value = 30, samples = 500)
-
-future::plan(future::cluster, workers = cl)
-
-# Run the pipeline (For national & regional)
-EpiNow::regional_rt_pipeline(
-  cases = reported_cases_region,
-  delay_defs = delay_defs,
-  incubation_defs = incubation_defs,
-  target_folder = "output/rt_ests",
-  case_limit = 0,
-  min_forecast_cases = 0,
-  horizon = 14,
-  nowcast_lag = 10,
-  approx_delay = TRUE,
-  report_forecast = TRUE,
-  forecast_model = function(y, ...){EpiSoon::forecastHybrid_model(
-    y = y[max(1, length(y) - 21):length(y)],
-    model_params = list(models = "aefz", weights = "equal"),
-    forecast_params = list(PI.combination = "mean"), ...)})
-
-parallel::stopCluster(cl)
-
-future::plan("sequential")
-
-# Then the summaries
-EpiNow::regional_summary(results_dir = "output/rt_ests",
-                         summary_dir = "output/rt_ests-summary",
-                         target_date = "latest",
-                         region_scale = "Region",
-                         csv_region_label = "region",
-                         log_cases = TRUE)
-
-# Rt estimates for plotting
-files <- list.files("output/rt_ests", recursive = TRUE, full.names = TRUE)
-reff_files <- files[grep("latest/summarised_reff.rds", files)]
-reffs <- lapply(reff_files, 
-                function(x) {
-                  out <- readRDS(x) 
-                  out$region <- unlist(strsplit(x, "/"))[[3]]
-                  out$R0_range <- NULL
-                  return(out)
-                })
-data.table::rbindlist(reffs) -> rt_ests
-write_csv(rt_ests, "latest/rt_ests.csv")
-
-# Rt estimates for plotting
-files <- list.files("output/rt_ests", recursive = TRUE, full.names = TRUE)
-nowcast_files <- files[grep("latest/summarised_nowcast.rds", files)]
-nowcast <- lapply(nowcast_files, 
-                function(x) {
-                  out <- readRDS(x) 
-                  out$region <- unlist(strsplit(x, "/"))[[3]]
-                  return(out)
-                })
-data.table::rbindlist(nowcast) -> nowcast
-write_csv(nowcast, "latest/nowcast.csv")
-
-# Summary table
-rt_summary <- readRDS("output/rt_ests-summary/summary_table.rds")
-rt_summary %>%
-  select(-`New confirmed cases by infection date`) %>%
-  mutate(date = Sys.Date()) -> rt_summary
-write_csv(rt_summary, "latest/rt_summary.csv")
