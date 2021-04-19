@@ -56,7 +56,8 @@ system.time({
                                        warmup = 2000,
                                        cores = 3))
 })
-
+save_example <- plot(estimates)
+ggsave("EpiNow2_exe_natl.jpeg", save_example)
 agp <- estimate_infections(reported_cases = reported_cases_natl, 
                            generation_time = generation_time,
                            delays = delay_opts(incubation_period, reporting_delay),
