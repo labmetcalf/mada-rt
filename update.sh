@@ -4,6 +4,9 @@ cd Documents/Projects/mada-rt
 
 git checkout master
 
+# Updated data
+Rscript R/get_data.R
+
 # Run locally (takes abt an hour)
 Rscript R/rt_epiNow.R
 
