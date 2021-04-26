@@ -1,6 +1,6 @@
 Region,Expected change in daily cases,Effective reproduction no.,Doubling/halving time (days),date,date_ests
-Analamanga,Increasing,1.3 (1.1 -- 1.4),11 (7.6 -- 17),2021-04-07,2021-04-19
-Atsimo-Andrefana,Likely increasing,1.3 (0.9 -- 1.7),9.5 (4.1 -- -26),2021-04-07,2021-04-19
-Atsinanana,Likely increasing,1.4 (0.8 -- 1.9),7.4 (3.2 -- -25),2021-04-07,2021-04-19
-National,Increasing,1.2 (1.1 -- 1.3),13 (9.3 -- 22),2021-04-07,2021-04-19
-Sofia,Increasing,1.6 (1.1 -- 2.2),4.9 (2.7 -- 24),2021-04-07,2021-04-19
+Alaotra-Mangoro,Likely increasing,1.4 (0.9 -- 1.8),8.6 (3.7 -- -27),2021-04-16,2021-04-25
+Analamanga,Likely decreasing,1 (0.9 -- 1),-32 (-500 -- -16),2021-04-16,2021-04-25
+Analanjirofo,Likely increasing,1.3 (0.8 -- 1.8),10 (3.5 -- -12),2021-04-16,2021-04-25
+Atsimo-Andrefana,Unsure,1 (0.6 -- 1.3),-48 (7.6 -- -5.7),2021-04-16,2021-04-25
+National,Unsure,1 (1 -- 1.1),-220 (43 -- -32),2021-04-16,2021-04-25

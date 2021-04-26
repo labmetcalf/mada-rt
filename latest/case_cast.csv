@@ -1,152 +1,270 @@
 type,date,bottom,top,lower,upper,median,mean,region,confidence
-forecast,2021-04-08,441,587,483,541,519,519.3952,Analamanga,NA
-forecast,2021-04-09,463,644,506,581,555,554.8704,Analamanga,NA
-forecast,2021-04-10,485,690,547,631,591,593.1032,Analamanga,NA
-forecast,2021-04-11,512,751,572,666,628,633.6016,Analamanga,NA
-forecast,2021-04-12,548,835,601,716,675,679.052,Analamanga,NA
-forecast,2021-04-13,557,887,646,774,720,725.0824,Analamanga,NA
-forecast,2021-04-14,577,967,677,826,773,777.5068,Analamanga,NA
-forecast,2021-04-15,598,1050,705,879,821.5,829.0636,Analamanga,NA
-forecast,2021-04-16,619,1130,765,967,882,891.5768,Analamanga,NA
-forecast,2021-04-17,664,1256,784,1012,935,954.3208,Analamanga,NA
-forecast,2021-04-18,696,1347,860,1109,997,1017.316,Analamanga,NA
-forecast,2021-04-19,717,1469,866,1151,1067.5,1086.384,Analamanga,NA
-forecast,2021-04-20,722,1561,893,1217,1133,1166.7736,Analamanga,NA
-forecast,2021-04-21,768,1690,1013,1368,1212,1244.8004,Analamanga,NA
-forecast,2021-04-08,7,40,15,27,24,25.2364,Atsimo-Andrefana,NA
-forecast,2021-04-09,8,46,17,31,26,27.2076,Atsimo-Andrefana,NA
-forecast,2021-04-10,5,51,16,33,28,29.6796,Atsimo-Andrefana,NA
-forecast,2021-04-11,6,59,14,34,30,32.358,Atsimo-Andrefana,NA
-forecast,2021-04-12,4,67,14,36,32,35.5252,Atsimo-Andrefana,NA
-forecast,2021-04-13,0,68,15,41,34,38.1132,Atsimo-Andrefana,NA
-forecast,2021-04-14,0,77,14,42,36,41.3656,Atsimo-Andrefana,NA
-forecast,2021-04-15,0,86,16,48,39,45.684,Atsimo-Andrefana,NA
-forecast,2021-04-16,0,96,12,48,41,49.9476,Atsimo-Andrefana,NA
-forecast,2021-04-17,0,111,10,51,44,55.2168,Atsimo-Andrefana,NA
-forecast,2021-04-18,0,125,9,54,47,61.1856,Atsimo-Andrefana,NA
-forecast,2021-04-19,0,138,0,49,49,66.0392,Atsimo-Andrefana,NA
-forecast,2021-04-20,0,163,0,55,55,75.3932,Atsimo-Andrefana,NA
-forecast,2021-04-21,0,174,0,56,56,79.7956,Atsimo-Andrefana,NA
-forecast,2021-04-08,4,30,7,17,16,17.8736,Atsinanana,NA
-forecast,2021-04-09,4,35,8,19,17,19.63,Atsinanana,NA
-forecast,2021-04-10,2,39,7,20,18,21.2416,Atsinanana,NA
-forecast,2021-04-11,2,47,5,21,20,23.8464,Atsinanana,NA
-forecast,2021-04-12,0,52,5,21,20,25.8112,Atsinanana,NA
-forecast,2021-04-13,0,58,6,23,21,28.3988,Atsinanana,NA
-forecast,2021-04-14,0,69,3,23,22,31.894,Atsinanana,NA
-forecast,2021-04-15,0,78,4,24,22,34.6832,Atsinanana,NA
-forecast,2021-04-16,0,90,2,24,23,39.16,Atsinanana,NA
-forecast,2021-04-17,0,99,3,27,25,44.8296,Atsinanana,NA
-forecast,2021-04-18,0,119,0,25,25,52.254,Atsinanana,NA
-forecast,2021-04-19,0,134,0,26,26,60.0804,Atsinanana,NA
-forecast,2021-04-20,0,156,0,26,26,68.7268,Atsinanana,NA
-forecast,2021-04-21,0,175,0,27,27,80.2444,Atsinanana,NA
-forecast,2021-04-08,589,743,636,701,665,664.7252,National,NA
-forecast,2021-04-09,608,795,652,726,700,702.348,National,NA
-forecast,2021-04-10,625,847,695,782,739,740.6728,National,NA
-forecast,2021-04-11,649,901,726,828,780,781.712,National,NA
-forecast,2021-04-12,682,980,748,865,823,825.09760000000006,National,NA
-forecast,2021-04-13,701,1045,795,933,867,870.3416,National,NA
-forecast,2021-04-14,733,1113,827,981,918,921.028,National,NA
-forecast,2021-04-15,744,1174,865,1027,965,971.8568,National,NA
-forecast,2021-04-16,794,1296,904,1097,1021,1028.4372,National,NA
-forecast,2021-04-17,825,1366,971,1177,1078.5,1084.6428,National,NA
-forecast,2021-04-18,838,1455,1008,1244,1138.5,1150.3936,National,NA
-forecast,2021-04-19,845,1537,1062,1316,1202,1211.1628,National,NA
-forecast,2021-04-20,893,1648,1106,1398,1267,1281.5916,National,NA
-forecast,2021-04-21,923,1766,1154,1473,1338,1353.464,National,NA
-forecast,2021-04-08,9,45,14,28,26,27.8044,Sofia,NA
-forecast,2021-04-09,9,54,15,32,29,31.6128,Sofia,NA
-forecast,2021-04-10,8,65,15,36,33,37.0988,Sofia,NA
-forecast,2021-04-11,8,78,14,40,37,42.576,Sofia,NA
-forecast,2021-04-12,6,95,16,45,41,49.4472,Sofia,NA
-forecast,2021-04-13,0,109,13,49,45.5,57.1296,Sofia,NA
-forecast,2021-04-14,0,131,17,59,52,66.8832,Sofia,NA
-forecast,2021-04-15,0,157,19,67,57,77.4024,Sofia,NA
-forecast,2021-04-16,0,188,15,72,64,90.3728,Sofia,NA
-forecast,2021-04-17,0,221,14,79,73,106.4068,Sofia,NA
-forecast,2021-04-18,0,272,15,93,81,125.7784,Sofia,NA
-forecast,2021-04-19,0,334,10,98,91,150.7364,Sofia,NA
-forecast,2021-04-20,0,389,11,112,102.5,178.256,Sofia,NA
-forecast,2021-04-21,0,502,0,111,111,216.7124,Sofia,NA
-nowcast,2021-01-20,1,1,1,1,1,1,Analamanga,1
-nowcast,2021-01-21,0,0,0,0,0,0,Analamanga,1
+forecast,2021-04-17,7,36,13,24,22,22.9204,Alaotra-Mangoro,NA
+forecast,2021-04-18,5,40,12,25,23,24.874,Alaotra-Mangoro,NA
+forecast,2021-04-19,4,46,12,27,25,27.302,Alaotra-Mangoro,NA
+forecast,2021-04-20,5,52,13,30,26,29.596800000000002,Alaotra-Mangoro,NA
+forecast,2021-04-21,4,59,15,34,28,32.136,Alaotra-Mangoro,NA
+forecast,2021-04-22,2,65,11,33,30,35.5732,Alaotra-Mangoro,NA
+forecast,2021-04-23,0,71,12,37,32,38.6516,Alaotra-Mangoro,NA
+forecast,2021-04-24,0,79,13,39,33,41.298,Alaotra-Mangoro,NA
+forecast,2021-04-25,0,87,9,40,36,46.1068,Alaotra-Mangoro,NA
+forecast,2021-04-26,0,96,8,40,37,50.2536,Alaotra-Mangoro,NA
+forecast,2021-04-27,0,103,10,46,39,54.5592,Alaotra-Mangoro,NA
+forecast,2021-04-28,0,119,6,46,42,61.77,Alaotra-Mangoro,NA
+forecast,2021-04-29,0,134,4,47,44,68.4408,Alaotra-Mangoro,NA
+forecast,2021-04-30,0,153,6,52,47,76.1036,Alaotra-Mangoro,NA
+forecast,2021-04-17,313,438,353,404,376,377.2132,Analamanga,NA
+forecast,2021-04-18,297,447,339,400,372,371.7372,Analamanga,NA
+forecast,2021-04-19,276,445,329,394,363,365.6856,Analamanga,NA
+forecast,2021-04-20,262,452,320,397,360,361.5536,Analamanga,NA
+forecast,2021-04-21,240,454,297,380,351,354.4184,Analamanga,NA
+forecast,2021-04-22,239,471,290,382,346,349.1016,Analamanga,NA
+forecast,2021-04-23,221,461,285,381,339.5,341.3116,Analamanga,NA
+forecast,2021-04-24,203,458,274,379,333,336.1536,Analamanga,NA
+forecast,2021-04-25,171,453,262,371,326,330.0688,Analamanga,NA
+forecast,2021-04-26,172,461,243,361,317,323.058,Analamanga,NA
+forecast,2021-04-27,175,479,240,358,315,320.9404,Analamanga,NA
+forecast,2021-04-28,143,461,229,354,308,313.1384,Analamanga,NA
+forecast,2021-04-29,141,465,226,356,297,307.12,Analamanga,NA
+forecast,2021-04-30,133,473,214,348,293,301.4356,Analamanga,NA
+forecast,2021-04-17,2,25,8,16,14,15.1916,Analanjirofo,NA
+forecast,2021-04-18,2,29,7,16,14,16.622,Analanjirofo,NA
+forecast,2021-04-19,2,32,5,16,15,17.8412,Analanjirofo,NA
+forecast,2021-04-20,1,36,5,17,16,19.5028,Analanjirofo,NA
+forecast,2021-04-21,0,41,5,18,16,21.388,Analanjirofo,NA
+forecast,2021-04-22,0,46,5,19,17,23.8852,Analanjirofo,NA
+forecast,2021-04-23,0,53,5,20,18,26.5236,Analanjirofo,NA
+forecast,2021-04-24,0,56,3,20,19,28.6924,Analanjirofo,NA
+forecast,2021-04-25,0,66,2,20,19,32.994,Analanjirofo,NA
+forecast,2021-04-26,0,76,0,21,21,36.8684,Analanjirofo,NA
+forecast,2021-04-27,0,84,3,24,22,41.4064,Analanjirofo,NA
+forecast,2021-04-28,0,95,0,22,22,48.2532,Analanjirofo,NA
+forecast,2021-04-29,0,110,0,23,23,56.0584,Analanjirofo,NA
+forecast,2021-04-30,0,122,0,24,24,65.6196,Analanjirofo,NA
+forecast,2021-04-17,5,28,10,19,16,17.1088,Atsimo-Andrefana,NA
+forecast,2021-04-18,3,29,7,17,16,17.278,Atsimo-Andrefana,NA
+forecast,2021-04-19,3,31,6,17,16,17.346800000000002,Atsimo-Andrefana,NA
+forecast,2021-04-20,0,31,5,17,15.5,17.4864,Atsimo-Andrefana,NA
+forecast,2021-04-21,0,33,4,17,15,17.75,Atsimo-Andrefana,NA
+forecast,2021-04-22,0,35,3,16,15,17.92,Atsimo-Andrefana,NA
+forecast,2021-04-23,0,37,4,17,15,18.3668,Atsimo-Andrefana,NA
+forecast,2021-04-24,0,37,0,14,14,18.3424,Atsimo-Andrefana,NA
+forecast,2021-04-25,0,39,0,13,13,18.2416,Atsimo-Andrefana,NA
+forecast,2021-04-26,0,41,0,14,14,18.792,Atsimo-Andrefana,NA
+forecast,2021-04-27,0,41,0,13,13,19.0236,Atsimo-Andrefana,NA
+forecast,2021-04-28,0,44,0,12,12,19.462,Atsimo-Andrefana,NA
+forecast,2021-04-29,0,46,0,12,12,20.0256,Atsimo-Andrefana,NA
+forecast,2021-04-30,0,46,0,12,12,20.0264,Atsimo-Andrefana,NA
+forecast,2021-04-17,475,645,529,598,562,563.724,National,NA
+forecast,2021-04-18,464,665,520,601,568,567.2492,National,NA
+forecast,2021-04-19,454,678,520,610,567,567.8952,National,NA
+forecast,2021-04-20,428,690,499,600,569,570.5948,National,NA
+forecast,2021-04-21,443,718,514,625,569,572.6572,National,NA
+forecast,2021-04-22,432,740,506,631,571,574.4572,National,NA
+forecast,2021-04-23,407,738,500,634,576,576.4352,National,NA
+forecast,2021-04-24,409,759,486,632,571,577.1036,National,NA
+forecast,2021-04-25,393,771,476,629,575,579.1488,National,NA
+forecast,2021-04-26,372,774,498,661,575,579.498,National,NA
+forecast,2021-04-27,359,795,480,654,575,581.04,National,NA
+forecast,2021-04-28,341,793,477,658,578,582.7504,National,NA
+forecast,2021-04-29,325,813,458,650,573,581.0908,National,NA
+forecast,2021-04-30,339,847,459,656,575,584.5464,National,NA
+nowcast,2021-02-05,1,1,1,1,1,1,Alaotra-Mangoro,1
+nowcast,2021-02-06,0,1,0,1,0.5,0.5,Alaotra-Mangoro,1
+nowcast,2021-02-07,0,1,0,1,0.5,0.5,Alaotra-Mangoro,1
+nowcast,2021-02-08,0,1,0,0,0,0.3333333333333333,Alaotra-Mangoro,1
+nowcast,2021-02-09,0,1,0,0,0,0.3333333333333333,Alaotra-Mangoro,1
+nowcast,2021-02-10,0,1,0,0,0,0.25,Alaotra-Mangoro,1
+nowcast,2021-02-11,0,1,0,0,0,0.4,Alaotra-Mangoro,1
+nowcast,2021-02-12,0,1,0,0,0,0.16666666666666666,Alaotra-Mangoro,1
+nowcast,2021-02-13,0,1,1,1,1,0.5454545454545454,Alaotra-Mangoro,1
+nowcast,2021-02-14,0,1,0,0,0,0.3076923076923077,Alaotra-Mangoro,1
+nowcast,2021-02-15,0,1,0,0,0,0.45,Alaotra-Mangoro,1
+nowcast,2021-02-16,0,1,0,0,0,0.36,Alaotra-Mangoro,1
+nowcast,2021-02-17,0,1,0,0,0,0.4166666666666667,Alaotra-Mangoro,1
+nowcast,2021-02-18,0,1,0,0,0,0.4423076923076923,Alaotra-Mangoro,1
+nowcast,2021-02-19,0,1,0,0,0,0.38461538461538464,Alaotra-Mangoro,1
+nowcast,2021-02-20,0,1,0,0,0,0.3493975903614458,Alaotra-Mangoro,1
+nowcast,2021-02-21,0,1,0,0,0,0.30392156862745096,Alaotra-Mangoro,1
+nowcast,2021-02-22,0,1,0,0,0,0.3359375,Alaotra-Mangoro,1
+nowcast,2021-02-23,0,1,0,0,0,0.3443708609271523,Alaotra-Mangoro,1
+nowcast,2021-02-24,0,1,0,0,0,0.3160919540229885,Alaotra-Mangoro,1
+nowcast,2021-02-25,0,1,0,0,0,0.42857142857142855,Alaotra-Mangoro,1
+nowcast,2021-02-26,0,1,0,0,0,0.41700404858299595,Alaotra-Mangoro,1
+nowcast,2021-02-27,0,1,0,0,0,0.3993174061433447,Alaotra-Mangoro,1
+nowcast,2021-02-28,0,1,0,0,0,0.4817073170731707,Alaotra-Mangoro,1
+nowcast,2021-03-01,0,1,0,0,0,0.4781420765027322,Alaotra-Mangoro,1
+nowcast,2021-03-02,0,2,0,0,0,0.5945273631840796,Alaotra-Mangoro,1
+nowcast,2021-03-03,0,2,0,1,1,0.7712264150943396,Alaotra-Mangoro,1
+nowcast,2021-03-04,0,2,0,1,1,0.8728070175438597,Alaotra-Mangoro,1
+nowcast,2021-03-05,0,2,0,1,1,0.949685534591195,Alaotra-Mangoro,1
+nowcast,2021-03-06,0,2,0,1,1,1.0699588477366255,Alaotra-Mangoro,1
+nowcast,2021-03-07,0,3,0,1,1,1.3265720081135903,Alaotra-Mangoro,1
+nowcast,2021-03-08,0,3,0,1,1,1.5211267605633803,Alaotra-Mangoro,1
+nowcast,2021-03-09,0,4,1,2,2,1.762,Alaotra-Mangoro,1
+nowcast,2021-03-10,0,4,1,2,2,2.002,Alaotra-Mangoro,1
+nowcast,2021-03-11,0,4,0,2,2,2.378,Alaotra-Mangoro,1
+nowcast,2021-03-12,0,4,2,3,2,2.49,Alaotra-Mangoro,1
+nowcast,2021-03-13,0,5,2,3,2,2.674,Alaotra-Mangoro,1
+nowcast,2021-03-14,0,5,1,3,3,2.972,Alaotra-Mangoro,1
+nowcast,2021-03-15,0,5,1,3,3,2.984,Alaotra-Mangoro,0.9999995513113054
+nowcast,2021-03-16,0,5,1,3,3,3.252,Alaotra-Mangoro,0.999993765086274
+nowcast,2021-03-17,0,6,1,3,3,3.456,Alaotra-Mangoro,0.9999708824930589
+nowcast,2021-03-18,1,6,1,3,3,3.516,Alaotra-Mangoro,0.9999296280258181
+nowcast,2021-03-19,0,6,2,4,4,3.816,Alaotra-Mangoro,0.9998780590534218
+nowcast,2021-03-20,0,7,2,4,4,4.244,Alaotra-Mangoro,0.9998121498889913
+nowcast,2021-03-21,2,8,2,4,4,4.552,Alaotra-Mangoro,0.9997119496868125
+nowcast,2021-03-22,1,8,4,6,5,5.224,Alaotra-Mangoro,0.9995639314400611
+nowcast,2021-03-23,2,9,3,6,6,5.798,Alaotra-Mangoro,0.9993743022352841
+nowcast,2021-03-24,2,10,3,6,6,6.43,Alaotra-Mangoro,0.9991332277786475
+nowcast,2021-03-25,3,11,4,7,7,7.018,Alaotra-Mangoro,0.9988136425385477
+nowcast,2021-03-26,3,11,5,8,7,7.558,Alaotra-Mangoro,0.9983790463826692
+nowcast,2021-03-27,4,12,6,9,8,7.996,Alaotra-Mangoro,0.9978205858630423
+nowcast,2021-03-28,3,12,6,9,8,8.328,Alaotra-Mangoro,0.9971181521138842
+nowcast,2021-03-29,3,12,6,9,8,8.422,Alaotra-Mangoro,0.9962121539345856
+nowcast,2021-03-30,4,13,7,10,8,8.47,Alaotra-Mangoro,0.9950284675079758
+nowcast,2021-03-31,4,13,5,9,9,9.24,Alaotra-Mangoro,0.9934816000605396
+nowcast,2021-04-01,5,15,6,10,10,10.096,Alaotra-Mangoro,0.9914929666296903
+nowcast,2021-04-02,5,15,7,11,11,10.552,Alaotra-Mangoro,0.9889700408275535
+nowcast,2021-04-03,6,16,8,12,11,11.194,Alaotra-Mangoro,0.9857611115899843
+nowcast,2021-04-04,5,16,8,12,11,11.428,Alaotra-Mangoro,0.9816622282527117
+nowcast,2021-04-05,6,16,8,12,12,11.746,Alaotra-Mangoro,0.9763899553034796
+nowcast,2021-04-06,6,16,8,12,12,11.714,Alaotra-Mangoro,0.9696806030418186
+nowcast,2021-04-07,5,16,9,13,12,11.666,Alaotra-Mangoro,0.9611610784674675
+nowcast,2021-04-08,6,17,9,13,12,12.116,Alaotra-Mangoro,0.9503446945255474
+nowcast,2021-04-09,7,18,8,13,13,12.782,Alaotra-Mangoro,0.9365959411929811
+nowcast,2021-04-10,8,19,11,15,13,13.476,Alaotra-Mangoro,0.9190931802927381
+nowcast,2021-04-11,7,19,12,16,14,13.858,Alaotra-Mangoro,0.896769014180241
+nowcast,2021-04-12,9,21,9,14,14,14.67,Alaotra-Mangoro,0.8682317701975453
+nowcast,2021-04-13,6,21,11,16,15,15.658,Alaotra-Mangoro,0.8316678332866189
+nowcast,2021-04-14,8,25,10,17,17,17.368,Alaotra-Mangoro,0.7847380947341046
+nowcast,2021-04-15,10,28,13,20,19,19.76,Alaotra-Mangoro,0.7245220606958298
+nowcast,2021-04-16,12,32,16,24,22,22.69,Alaotra-Mangoro,0.6476665004749557
+Observed by report date,2021-03-17,NA,NA,NA,NA,2,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-18,NA,NA,NA,NA,4,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-19,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-20,NA,NA,NA,NA,6,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-21,NA,NA,NA,NA,4,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-22,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-23,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-24,NA,NA,NA,NA,6,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-25,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-26,NA,NA,NA,NA,1,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-27,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-28,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-29,NA,NA,NA,NA,2,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-30,NA,NA,NA,NA,4,NA,Alaotra-Mangoro,1
+Observed by report date,2021-03-31,NA,NA,NA,NA,2,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-01,NA,NA,NA,NA,29,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-02,NA,NA,NA,NA,3,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-03,NA,NA,NA,NA,3,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-04,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-05,NA,NA,NA,NA,2,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-06,NA,NA,NA,NA,5,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-07,NA,NA,NA,NA,8,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-08,NA,NA,NA,NA,9,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-09,NA,NA,NA,NA,24,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-10,NA,NA,NA,NA,10,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-11,NA,NA,NA,NA,13,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-12,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-13,NA,NA,NA,NA,8,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-14,NA,NA,NA,NA,13,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-15,NA,NA,NA,NA,20,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-16,NA,NA,NA,NA,17,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-17,NA,NA,NA,NA,9,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-18,NA,NA,NA,NA,0,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-19,NA,NA,NA,NA,2,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-20,NA,NA,NA,NA,1,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-21,NA,NA,NA,NA,29,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-22,NA,NA,NA,NA,14,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-23,NA,NA,NA,NA,30,NA,Alaotra-Mangoro,1
+Observed by report date,2021-04-24,NA,NA,NA,NA,19,NA,Alaotra-Mangoro,1
+nowcast,2021-01-21,1,1,1,1,1,1,Analamanga,1
 nowcast,2021-01-22,0,1,0,1,0.5,0.5,Analamanga,1
-nowcast,2021-01-23,0,1,0,0,0,0.2,Analamanga,1
-nowcast,2021-01-24,0,1,0,0,0,0.375,Analamanga,1
-nowcast,2021-01-25,0,0,0,0,0,0,Analamanga,1
-nowcast,2021-01-26,0,1,0,0,0,0.125,Analamanga,1
-nowcast,2021-01-27,0,1,0,0,0,0.2222222222222222,Analamanga,1
-nowcast,2021-01-28,0,1,1,1,1,0.5294117647058824,Analamanga,1
-nowcast,2021-01-29,0,0,0,0,0,0.05555555555555555,Analamanga,1
-nowcast,2021-01-30,0,1,0,0,0,0.19047619047619047,Analamanga,1
-nowcast,2021-01-31,0,1,0,0,0,0.3333333333333333,Analamanga,1
-nowcast,2021-02-01,0,1,0,0,0,0.3611111111111111,Analamanga,1
-nowcast,2021-02-02,0,1,0,0,0,0.3333333333333333,Analamanga,1
-nowcast,2021-02-03,0,1,0,0,0,0.3220338983050847,Analamanga,1
-nowcast,2021-02-04,0,1,0,0,0,0.4246575342465753,Analamanga,1
-nowcast,2021-02-05,0,1,0,0,0,0.54,Analamanga,1
-nowcast,2021-02-06,0,1,0,0,0,0.5461538461538461,Analamanga,1
-nowcast,2021-02-07,0,1,0,0,0,0.5757575757575758,Analamanga,1
-nowcast,2021-02-08,0,2,0,0,0,0.5824742268041238,Analamanga,1
-nowcast,2021-02-09,0,2,0,0,0,0.5701754385964912,Analamanga,1
-nowcast,2021-02-10,0,2,0,0,0,0.6891385767790262,Analamanga,1
-nowcast,2021-02-11,0,2,0,1,1,0.770764119601329,Analamanga,1
-nowcast,2021-02-12,0,2,0,1,1,0.8904899135446686,Analamanga,1
-nowcast,2021-02-13,0,2,0,1,1,0.987012987012987,Analamanga,1
-nowcast,2021-02-14,0,3,0,1,1,1.2190476190476192,Analamanga,1
-nowcast,2021-02-15,0,3,0,1,1,1.3777777777777778,Analamanga,1
-nowcast,2021-02-16,0,4,0,1,1,1.767094017094017,Analamanga,1
-nowcast,2021-02-17,0,5,0,2,2,2.1780538302277432,Analamanga,1
-nowcast,2021-02-18,0,6,0,2,2,2.8401639344262297,Analamanga,1
-nowcast,2021-02-19,0,7,1,3,3,3.3360323886639676,Analamanga,1
-nowcast,2021-02-20,0,8,1,4,4,4.164989939637827,Analamanga,1
-nowcast,2021-02-21,0,10,2,5,5,5.172690763052209,Analamanga,1
-nowcast,2021-02-22,1,11,2,6,6,6.2044088176352705,Analamanga,1
-nowcast,2021-02-23,2,14,5,9,7,7.98,Analamanga,1
-nowcast,2021-02-24,1,17,5,10,9,9.81,Analamanga,1
-nowcast,2021-02-25,2,19,7,13,11,12.156,Analamanga,1
-nowcast,2021-02-26,5,24,8,15,14,14.876,Analamanga,1
-nowcast,2021-02-27,7,29,12,20,17,18.088,Analamanga,1
-nowcast,2021-02-28,9,32,13,22,21,21.728,Analamanga,1
-nowcast,2021-03-01,14,38,18,27,25,26.59,Analamanga,1
-nowcast,2021-03-02,18,45,24,34,31,31.514,Analamanga,1
-nowcast,2021-03-03,21,52,30,42,38,38.12,Analamanga,1
-nowcast,2021-03-04,28,61,34,47,43,44.114,Analamanga,1
-nowcast,2021-03-05,34,65,42,55,51,51.226,Analamanga,1
-nowcast,2021-03-06,44,76,49,63,58,58.874,Analamanga,1
-nowcast,2021-03-07,50,81,57,69,66,66.496,Analamanga,1
-nowcast,2021-03-08,56,90,64,79,74,73.884,Analamanga,0.9999850134504635
-nowcast,2021-03-09,60,95,69,83,79,79.234,Analamanga,0.9999472954600991
-nowcast,2021-03-10,68,104,75,89,85,85.648,Analamanga,0.9999001581987849
-nowcast,2021-03-11,71,108,80,93,89,89.656,Analamanga,0.999841226286055
-nowcast,2021-03-12,77,115,86,101,95,95.096,Analamanga,0.9997675218596775
-nowcast,2021-03-13,81,120,90,106,99.5,99.834,Analamanga,0.9996428362927174
-nowcast,2021-03-14,87,128,95,111,105,105.69,Analamanga,0.9994730202536496
-nowcast,2021-03-15,88,134,99,117,111,112.072,Analamanga,0.9992601033943147
-nowcast,2021-03-16,96,139,107,125,118,119.38,Analamanga,0.9989931078991692
-nowcast,2021-03-17,100,147,119,138,126,127.24,Analamanga,0.998612145503249
-nowcast,2021-03-18,108,159,120,140,135,136.476,Analamanga,0.9980975604334837
-nowcast,2021-03-19,123,171,131,152,147,147.334,Analamanga,0.9974506463196667
-nowcast,2021-03-20,133,183,144,163,157,157.594,Analamanga,0.9966369777299554
-nowcast,2021-03-21,141,191,152,175,167,167.262,Analamanga,0.9955831659945464
-nowcast,2021-03-22,148,201,164,184,175,175.536,Analamanga,0.9941861468160252
-nowcast,2021-03-23,158,211,164,187,183,184.306,Analamanga,0.9923841407411179
-nowcast,2021-03-24,165,216,177,200,193,192.784,Analamanga,0.9900829292243797
-nowcast,2021-03-25,165,228,189,214,199.5,200.528,Analamanga,0.9871715143154718
-nowcast,2021-03-26,172,238,185,212,206,208.054,Analamanga,0.9834862842958618
-nowcast,2021-03-27,180,254,203,233,220,220.78,Analamanga,0.978747812485519
-nowcast,2021-03-28,195,275,215,245,235,235.99,Analamanga,0.9727423490704128
-nowcast,2021-03-29,211,295,233,265,253,254.044,Analamanga,0.9650266920629967
-nowcast,2021-03-30,232,315,255,287,273,274.398,Analamanga,0.9552329999153921
-nowcast,2021-03-31,260,341,284,318,299.5,299.902,Analamanga,0.942789660068188
-nowcast,2021-04-01,281,361,311,344,326,327.102,Analamanga,0.9269608161380145
-nowcast,2021-04-02,312,391,337,367,353,353.61,Analamanga,0.90679540578749
-nowcast,2021-04-03,337,420,362,397,382,383.198,Analamanga,0.8810597267896508
-nowcast,2021-04-04,367,444,387,420,406,407.268,Analamanga,0.8481507963327396
-nowcast,2021-04-05,389,467,414,445,431,431.354,Analamanga,0.8059940401143746
-nowcast,2021-04-06,412,495,432,464,454,454.064,Analamanga,0.7519503097953025
-nowcast,2021-04-07,431,522,454,492,479,479.198,Analamanga,0.682818176404563
+nowcast,2021-01-23,0,0,0,0,0,0,Analamanga,1
+nowcast,2021-01-24,0,0,0,0,0,0,Analamanga,1
+nowcast,2021-01-25,0,1,0,0,0,0.3333333333333333,Analamanga,1
+nowcast,2021-01-26,0,1,0,0,0,0.4,Analamanga,1
+nowcast,2021-01-27,0,1,0,0,0,0.16666666666666666,Analamanga,1
+nowcast,2021-01-28,0,1,0,0,0,0.3333333333333333,Analamanga,1
+nowcast,2021-01-29,0,2,0,0,0,0.46153846153846156,Analamanga,1
+nowcast,2021-01-30,0,1,0,0,0,0.3333333333333333,Analamanga,1
+nowcast,2021-01-31,0,1,0,0,0,0.1,Analamanga,1
+nowcast,2021-02-01,0,1,0,0,0,0.36666666666666664,Analamanga,1
+nowcast,2021-02-02,0,1,0,0,0,0.37209302325581395,Analamanga,1
+nowcast,2021-02-03,0,1,0,0,0,0.38333333333333336,Analamanga,1
+nowcast,2021-02-04,0,1,0,0,0,0.4659090909090909,Analamanga,1
+nowcast,2021-02-05,0,1,0,0,0,0.45714285714285713,Analamanga,1
+nowcast,2021-02-06,0,1,0,0,0,0.4015748031496063,Analamanga,1
+nowcast,2021-02-07,0,1,0,0,0,0.5680473372781065,Analamanga,1
+nowcast,2021-02-08,0,1,0,0,0,0.4666666666666667,Analamanga,1
+nowcast,2021-02-09,0,2,0,0,0,0.6167400881057269,Analamanga,1
+nowcast,2021-02-10,0,2,0,0,0,0.6287878787878788,Analamanga,1
+nowcast,2021-02-11,0,2,0,1,1,0.7181208053691275,Analamanga,1
+nowcast,2021-02-12,0,2,0,1,1,0.8473053892215568,Analamanga,1
+nowcast,2021-02-13,0,2,0,1,1,0.9604221635883905,Analamanga,1
+nowcast,2021-02-14,0,3,0,1,1,1.1740196078431373,Analamanga,1
+nowcast,2021-02-15,0,3,0,1,1,1.2275862068965517,Analamanga,1
+nowcast,2021-02-16,0,4,0,1,1,1.6891304347826086,Analamanga,1
+nowcast,2021-02-17,0,4,0,2,2,1.99163179916318,Analamanga,1
+nowcast,2021-02-18,0,6,0,2,2,2.6693711967545637,Analamanga,1
+nowcast,2021-02-19,0,6,0,2,2,3.018181818181818,Analamanga,1
+nowcast,2021-02-20,0,8,0,3,3,3.9798387096774195,Analamanga,1
+nowcast,2021-02-21,0,9,2,5,4,4.953722334004024,Analamanga,1
+nowcast,2021-02-22,0,11,2,6,6,6.333333333333333,Analamanga,1
+nowcast,2021-02-23,1,13,2,7,7,7.62124248496994,Analamanga,1
+nowcast,2021-02-24,2,16,5,10,9,9.518,Analamanga,1
+nowcast,2021-02-25,3,19,6,12,11,11.778,Analamanga,1
+nowcast,2021-02-26,4,24,7,15,14,14.906,Analamanga,1
+nowcast,2021-02-27,7,28,12,19,17,17.858,Analamanga,1
+nowcast,2021-02-28,10,32,13,22,21,21.542,Analamanga,1
+nowcast,2021-03-01,14,39,17,27,25,26.308,Analamanga,1
+nowcast,2021-03-02,17,44,22,34,31,31.548,Analamanga,1
+nowcast,2021-03-03,22,51,27,39,37,37.45,Analamanga,1
+nowcast,2021-03-04,28,58,38,49,44,44.17,Analamanga,1
+nowcast,2021-03-05,35,65,43,55,50.5,50.738,Analamanga,1
+nowcast,2021-03-06,43,73,51,63,58,58.32,Analamanga,1
+nowcast,2021-03-07,50,80,56,69,66,65.804,Analamanga,1
+nowcast,2021-03-08,57,87,65,77,72,72.766,Analamanga,1
+nowcast,2021-03-09,62,95,70,84,79,79.802,Analamanga,1
+nowcast,2021-03-10,66,99,75,89,85,85.01,Analamanga,1
+nowcast,2021-03-11,70,107,80,95,89,89.214,Analamanga,1
+nowcast,2021-03-12,73,113,88,102,94,94.032,Analamanga,1
+nowcast,2021-03-13,81,119,87,102,98,99.17,Analamanga,1
+nowcast,2021-03-14,82,124,95,111,105,105.084,Analamanga,1
+nowcast,2021-03-15,91,134,101,117,111,111.95,Analamanga,1
+nowcast,2021-03-16,97,142,108,125,120,120.322,Analamanga,1
+nowcast,2021-03-17,101,150,117,136,128,128.438,Analamanga,0.9999848006100561
+nowcast,2021-03-18,112,163,119,142,137,137.574,Analamanga,0.9999470228456389
+nowcast,2021-03-19,121,168,138,156,147,147.874,Analamanga,0.9998998093510814
+nowcast,2021-03-20,132,183,144,165,158,159.244,Analamanga,0.99984078032971
+nowcast,2021-03-21,143,198,155,176,168,169.992,Analamanga,0.9997669523597079
+nowcast,2021-03-22,154,207,160,182,178,179.114,Analamanga,0.9996421098303063
+nowcast,2021-03-23,161,216,174,194,187,188.71,Analamanga,0.9994720946577056
+nowcast,2021-03-24,167,226,179,204,195,197.27,Analamanga,0.9992589255534581
+nowcast,2021-03-25,173,238,193,217,206,206.622,Analamanga,0.998991611065335
+nowcast,2021-03-26,183,250,198,223,213,214.002,Analamanga,0.9986102375777626
+nowcast,2021-03-27,187,259,200,230,225,226.49,Analamanga,0.9981108518775283
+nowcast,2021-03-28,197,279,220,254,241,241.5,Analamanga,0.9974826549393108
+nowcast,2021-03-29,214,297,237,271,260,260.56,Analamanga,0.9966921157465102
+nowcast,2021-03-30,239,321,258,294,282,281.688,Analamanga,0.9956669867634822
+nowcast,2021-03-31,265,350,281,315,305,305.554,Analamanga,0.9943056471337819
+nowcast,2021-04-01,290,367,306,340,330,330.9,Analamanga,0.9925481732880349
+nowcast,2021-04-02,313,387,341,371,355,354.872,Analamanga,0.9903027086958333
+nowcast,2021-04-03,341,411,362,390,378,377.656,Analamanga,0.9874612709697925
+nowcast,2021-04-04,359,427,377,405,394,394.802,Analamanga,0.983864079127743
+nowcast,2021-04-05,373,439,393,419,410,410.27,Analamanga,0.9792363061411039
+nowcast,2021-04-06,386,453,401,427,417.5,418.112,Analamanga,0.9733703042585484
+nowcast,2021-04-07,401,463,414,439,428.5,429.048,Analamanga,0.965830149045332
+nowcast,2021-04-08,397,466,412,438,430.5,431.958,Analamanga,0.9562567960988019
+nowcast,2021-04-09,401,475,423,450,437,436.586,Analamanga,0.9440887203027702
+nowcast,2021-04-10,399,468,411,438,430,429.774,Analamanga,0.9286008939344592
+nowcast,2021-04-11,379,450,409,437,420,419.284,Analamanga,0.9088524070652438
+nowcast,2021-04-12,373,437,388,414,404,406.006,Analamanga,0.8836161198043787
+nowcast,2021-04-13,360,425,368,396,391,392.226,Analamanga,0.8512865629905148
+nowcast,2021-04-14,349,420,372,398,386,385.526,Analamanga,0.8097679412720196
+nowcast,2021-04-15,341,414,365,395,381,381.692,Analamanga,0.7563644320354459
+nowcast,2021-04-16,338,420,362,394,381,381.632,Analamanga,0.6877540441130963
 Observed by report date,2021-03-13,NA,NA,NA,NA,80,NA,Analamanga,1
 Observed by report date,2021-03-14,NA,NA,NA,NA,88,NA,Analamanga,1
 Observed by report date,2021-03-15,NA,NA,NA,NA,60,NA,Analamanga,1
@@ -181,73 +299,204 @@ Observed by report date,2021-04-12,NA,NA,NA,NA,149,NA,Analamanga,1
 Observed by report date,2021-04-13,NA,NA,NA,NA,445,NA,Analamanga,1
 Observed by report date,2021-04-14,NA,NA,NA,NA,634,NA,Analamanga,1
 Observed by report date,2021-04-15,NA,NA,NA,NA,701,NA,Analamanga,1
-nowcast,2021-01-31,1,1,1,1,1,1,Atsimo-Andrefana,1
-nowcast,2021-02-01,0,1,0,1,0.5,0.5,Atsimo-Andrefana,1
-nowcast,2021-02-02,0,1,1,1,1,0.6,Atsimo-Andrefana,1
-nowcast,2021-02-03,0,1,0,0,0,0.2857142857142857,Atsimo-Andrefana,1
-nowcast,2021-02-04,0,1,0,0,0,0.4,Atsimo-Andrefana,1
-nowcast,2021-02-05,0,1,0,0,0,0.25,Atsimo-Andrefana,1
-nowcast,2021-02-06,0,0,0,0,0,0.08333333333333333,Atsimo-Andrefana,1
-nowcast,2021-02-07,0,1,0,0,0,0.3333333333333333,Atsimo-Andrefana,1
-nowcast,2021-02-08,0,1,0,0,0,0.3333333333333333,Atsimo-Andrefana,1
-nowcast,2021-02-09,0,1,0,0,0,0.1724137931034483,Atsimo-Andrefana,1
-nowcast,2021-02-10,0,1,0,0,0,0.3157894736842105,Atsimo-Andrefana,1
-nowcast,2021-02-11,0,1,0,0,0,0.24444444444444444,Atsimo-Andrefana,1
-nowcast,2021-02-12,0,1,0,0,0,0.2807017543859649,Atsimo-Andrefana,1
-nowcast,2021-02-13,0,1,0,0,0,0.2857142857142857,Atsimo-Andrefana,1
-nowcast,2021-02-14,0,1,0,0,0,0.27710843373493976,Atsimo-Andrefana,1
-nowcast,2021-02-15,0,1,0,0,0,0.2736842105263158,Atsimo-Andrefana,1
-nowcast,2021-02-16,0,1,0,0,0,0.2037037037037037,Atsimo-Andrefana,1
-nowcast,2021-02-17,0,1,0,0,0,0.29457364341085274,Atsimo-Andrefana,1
-nowcast,2021-02-18,0,1,0,0,0,0.3987341772151899,Atsimo-Andrefana,1
-nowcast,2021-02-19,0,1,0,0,0,0.30386740331491713,Atsimo-Andrefana,1
-nowcast,2021-02-20,0,1,0,0,0,0.37037037037037035,Atsimo-Andrefana,1
-nowcast,2021-02-21,0,1,0,0,0,0.3968253968253968,Atsimo-Andrefana,1
-nowcast,2021-02-22,0,1,0,0,0,0.43205574912891986,Atsimo-Andrefana,1
-nowcast,2021-02-23,0,1,0,0,0,0.5060240963855421,Atsimo-Andrefana,1
-nowcast,2021-02-24,0,1,0,0,0,0.5483028720626631,Atsimo-Andrefana,1
-nowcast,2021-02-25,0,2,0,0,0,0.5640394088669951,Atsimo-Andrefana,1
-nowcast,2021-02-26,0,2,0,1,1,0.7172413793103448,Atsimo-Andrefana,1
-nowcast,2021-02-27,0,2,0,1,1,0.8235294117647058,Atsimo-Andrefana,1
-nowcast,2021-02-28,0,2,0,1,1,0.8705636743215032,Atsimo-Andrefana,1
-nowcast,2021-03-01,0,2,0,1,1,1.0612244897959184,Atsimo-Andrefana,1
-nowcast,2021-03-02,0,3,0,1,1,1.314516129032258,Atsimo-Andrefana,1
-nowcast,2021-03-03,0,3,0,1,1,1.4529058116232465,Atsimo-Andrefana,1
-nowcast,2021-03-04,0,4,1,2,2,1.788,Atsimo-Andrefana,1
-nowcast,2021-03-05,0,4,1,2,2,2.21,Atsimo-Andrefana,1
-nowcast,2021-03-06,0,4,2,3,2,2.44,Atsimo-Andrefana,0.99999970305742
-nowcast,2021-03-07,1,5,2,3,3,2.786,Atsimo-Andrefana,0.9999917992656279
-nowcast,2021-03-08,0,5,1,3,3,3.038,Atsimo-Andrefana,0.9999632734113179
-nowcast,2021-03-09,1,6,1,3,3,3.41,Atsimo-Andrefana,0.9999202014539688
-nowcast,2021-03-10,1,6,2,4,3,3.566,Atsimo-Andrefana,0.9998663835329713
-nowcast,2021-03-11,1,6,1,3,3,3.454,Atsimo-Andrefana,0.9997967313140161
-nowcast,2021-03-12,1,6,1,3,3,3.398,Atsimo-Andrefana,0.9996970020701165
-nowcast,2021-03-13,1,6,1,3,3,3.14,Atsimo-Andrefana,0.9995480973537179
-nowcast,2021-03-14,0,5,1,3,3,3.1,Atsimo-Andrefana,0.9993545172914915
-nowcast,2021-03-15,0,5,1,3,3,3.072,Atsimo-Andrefana,0.9991118525821203
-nowcast,2021-03-16,1,6,1,3,3,3.18,Atsimo-Andrefana,0.9987827340697261
-nowcast,2021-03-17,0,6,2,4,4,3.772,Atsimo-Andrefana,0.9983350302285133
-nowcast,2021-03-18,0,7,3,5,4,4.226,Atsimo-Andrefana,0.9977504939928085
-nowcast,2021-03-19,1,8,2,5,5,4.7,Atsimo-Andrefana,0.9970158163079758
-nowcast,2021-03-20,1,8,4,6,5,5.374,Atsimo-Andrefana,0.9960752214385352
-nowcast,2021-03-21,2,10,3,6,6,6.08,Atsimo-Andrefana,0.9948312424016975
-nowcast,2021-03-22,2,10,4,7,7,6.906,Atsimo-Andrefana,0.9932156444721021
-nowcast,2021-03-23,3,12,6,9,7,7.524,Atsimo-Andrefana,0.9911463241321022
-nowcast,2021-03-24,3,12,6,9,8,8.316,Atsimo-Andrefana,0.9885221533618553
-nowcast,2021-03-25,4,14,6,10,9,9.37,Atsimo-Andrefana,0.9852028338951073
-nowcast,2021-03-26,4,14,7,11,10,9.922,Atsimo-Andrefana,0.9809470082075823
-nowcast,2021-03-27,5,15,7,11,10,10.648,Atsimo-Andrefana,0.9755142423474603
-nowcast,2021-03-28,6,17,9,13,12,11.854,Atsimo-Andrefana,0.9685883797188463
-nowcast,2021-03-29,7,17,9,13,12,12.086,Atsimo-Andrefana,0.9597791856191186
-nowcast,2021-03-30,6,18,11,15,13,12.842,Atsimo-Andrefana,0.9485996798972256
-nowcast,2021-03-31,7,19,9,14,13,13.434,Atsimo-Andrefana,0.9343972019062422
-nowcast,2021-04-01,7,21,10,15,14,14.452,Atsimo-Andrefana,0.9163308585595487
-nowcast,2021-04-02,8,22,11,17,16,16.124,Atsimo-Andrefana,0.8933135992271516
-nowcast,2021-04-03,9,24,12,18,17,17.238,Atsimo-Andrefana,0.8639377219280665
-nowcast,2021-04-04,9,25,13,19,18,18.628,Atsimo-Andrefana,0.8263854895668354
-nowcast,2021-04-05,10,27,15,21,19,19.65,Atsimo-Andrefana,0.7783412063337906
-nowcast,2021-04-06,10,30,14,22,20,21.182,Atsimo-Andrefana,0.716962234033013
-nowcast,2021-04-07,12,33,15,24,22,22.944,Atsimo-Andrefana,0.6390673832791861
+Observed by report date,2021-04-16,NA,NA,NA,NA,440,NA,Analamanga,1
+Observed by report date,2021-04-17,NA,NA,NA,NA,449,NA,Analamanga,1
+Observed by report date,2021-04-18,NA,NA,NA,NA,396,NA,Analamanga,1
+Observed by report date,2021-04-19,NA,NA,NA,NA,329,NA,Analamanga,1
+Observed by report date,2021-04-20,NA,NA,NA,NA,305,NA,Analamanga,1
+Observed by report date,2021-04-21,NA,NA,NA,NA,335,NA,Analamanga,1
+Observed by report date,2021-04-22,NA,NA,NA,NA,553,NA,Analamanga,1
+Observed by report date,2021-04-23,NA,NA,NA,NA,295,NA,Analamanga,1
+Observed by report date,2021-04-24,NA,NA,NA,NA,421,NA,Analamanga,1
+nowcast,2021-02-04,1,1,1,1,1,1,Analanjirofo,1
+nowcast,2021-02-05,1,1,1,1,1,1,Analanjirofo,1
+nowcast,2021-02-06,0,1,1,1,1,0.6363636363636364,Analanjirofo,1
+nowcast,2021-02-07,0,1,0,0,0,0.21428571428571427,Analanjirofo,1
+nowcast,2021-02-08,0,1,0,0,0,0.3333333333333333,Analanjirofo,1
+nowcast,2021-02-09,0,1,0,0,0,0.4482758620689655,Analanjirofo,1
+nowcast,2021-02-10,0,1,0,0,0,0.2972972972972973,Analanjirofo,1
+nowcast,2021-02-11,0,1,0,0,0,0.34615384615384615,Analanjirofo,1
+nowcast,2021-02-12,0,1,0,0,0,0.2857142857142857,Analanjirofo,1
+nowcast,2021-02-13,0,1,0,0,0,0.2631578947368421,Analanjirofo,1
+nowcast,2021-02-14,0,1,0,0,0,0.28421052631578947,Analanjirofo,1
+nowcast,2021-02-15,0,1,0,0,0,0.4214876033057851,Analanjirofo,1
+nowcast,2021-02-16,0,1,0,0,0,0.3624161073825503,Analanjirofo,1
+nowcast,2021-02-17,0,1,0,0,0,0.3812154696132597,Analanjirofo,1
+nowcast,2021-02-18,0,1,0,0,0,0.48826291079812206,Analanjirofo,1
+nowcast,2021-02-19,0,1,0,0,0,0.3870967741935484,Analanjirofo,1
+nowcast,2021-02-20,0,1,0,0,0,0.45018450184501846,Analanjirofo,1
+nowcast,2021-02-21,0,1,0,0,0,0.5244299674267101,Analanjirofo,1
+nowcast,2021-02-22,0,2,0,0,0,0.6086956521739131,Analanjirofo,1
+nowcast,2021-02-23,0,2,0,1,1,0.7455012853470437,Analanjirofo,1
+nowcast,2021-02-24,0,2,0,1,1,0.7668997668997669,Analanjirofo,1
+nowcast,2021-02-25,0,2,0,1,1,0.9333333333333333,Analanjirofo,1
+nowcast,2021-02-26,0,3,0,1,1,1.109704641350211,Analanjirofo,1
+nowcast,2021-02-27,0,3,0,1,1,1.4262295081967213,Analanjirofo,1
+nowcast,2021-02-28,0,3,0,1,1,1.6096579476861168,Analanjirofo,1
+nowcast,2021-03-01,0,4,1,2,2,1.8276553106212425,Analanjirofo,1
+nowcast,2021-03-02,0,4,0,2,2,2.408,Analanjirofo,1
+nowcast,2021-03-03,0,5,1,3,3,2.896,Analanjirofo,1
+nowcast,2021-03-04,0,6,1,3,3,3.37,Analanjirofo,1
+nowcast,2021-03-05,1,7,2,4,4,4.078,Analanjirofo,1
+nowcast,2021-03-06,1,8,3,5,5,4.686,Analanjirofo,1
+nowcast,2021-03-07,1,8,2,5,5,5.32,Analanjirofo,1
+nowcast,2021-03-08,2,9,3,6,6,6.14,Analanjirofo,1
+nowcast,2021-03-09,3,11,4,7,6,6.792,Analanjirofo,1
+nowcast,2021-03-10,3,11,5,8,7,7.506,Analanjirofo,1
+nowcast,2021-03-11,4,12,6,9,8,8.366,Analanjirofo,1
+nowcast,2021-03-12,3,12,6,9,9,8.592,Analanjirofo,1
+nowcast,2021-03-13,4,13,7,10,9,9.24,Analanjirofo,1
+nowcast,2021-03-14,4,14,8,11,10,9.676,Analanjirofo,0.9999995271185719
+nowcast,2021-03-15,4,14,6,10,10,9.98,Analanjirofo,0.9999948801601196
+nowcast,2021-03-16,4,14,6,10,10,10.184,Analanjirofo,0.9999769875580852
+nowcast,2021-03-17,6,15,9,12,10.5,10.642,Analanjirofo,0.999942028489242
+nowcast,2021-03-18,5,14,8,11,11,10.586,Analanjirofo,0.9998936647190186
+nowcast,2021-03-19,5,16,8,12,11,11.046,Analanjirofo,0.999832145726202
+nowcast,2021-03-20,6,16,7,11,11,11.034,Analanjirofo,0.9997452645500488
+nowcast,2021-03-21,5,16,7,11,11,11.114,Analanjirofo,0.9996182705508744
+nowcast,2021-03-22,6,15,9,12,11,10.878,Analanjirofo,0.99944563270252
+nowcast,2021-03-23,5,15,7,11,11,10.996,Analanjirofo,0.9992211093040528
+nowcast,2021-03-24,5,15,7,11,10,10.444,Analanjirofo,0.99893232908969265
+nowcast,2021-03-25,4,14,7,11,10,10.288,Analanjirofo,0.998540097573686
+nowcast,2021-03-26,6,15,6,10,10,9.986,Analanjirofo,0.9980295822300007
+nowcast,2021-03-27,5,15,7,11,10,10.252,Analanjirofo,0.9973820822698853
+nowcast,2021-03-28,5,14,6,10,10,9.88,Analanjirofo,0.9965617981338389
+nowcast,2021-03-29,5,14,8,11,10,9.45,Analanjirofo,0.9955040103761115
+nowcast,2021-03-30,5,14,7,10,9,8.98,Analanjirofo,0.9940982683487266
+nowcast,2021-03-31,4,12,7,10,8,8.582,Analanjirofo,0.9922819342802269
+nowcast,2021-04-01,4,13,7,10,8,8.526,Analanjirofo,0.9899726210472725
+nowcast,2021-04-02,3,12,7,10,8,8.312,Analanjirofo,0.9870525209525349
+nowcast,2021-04-03,3,12,6,9,8,8.266,Analanjirofo,0.9833261152141768
+nowcast,2021-04-04,3,12,6,9,8,8.31,Analanjirofo,0.9785945065579172
+nowcast,2021-04-05,3,12,6,9,8,8.46,Analanjirofo,0.9725514244120015
+nowcast,2021-04-06,3,12,7,10,8,8.41,Analanjirofo,0.9648415756713189
+nowcast,2021-04-07,3,13,6,9,8,8.784,Analanjirofo,0.9550444858609942
+nowcast,2021-04-08,4,13,5,9,9,8.708,Analanjirofo,0.9426048072902481
+nowcast,2021-04-09,3,13,7,10,9,8.89,Analanjirofo,0.9267882318088021
+nowcast,2021-04-10,4,14,5,9,9,9.45,Analanjirofo,0.9066436306587392
+nowcast,2021-04-11,5,15,6,10,10,10.164,Analanjirofo,0.8809341911873231
+nowcast,2021-04-12,6,16,7,11,10,10.498,Analanjirofo,0.8480498920989753
+nowcast,2021-04-13,4,16,6,11,11,10.922,Analanjirofo,0.8059078250688364
+nowcast,2021-04-14,5,18,9,13,12,11.996,Analanjirofo,0.7518729694217297
+nowcast,2021-04-15,6,21,8,14,13,13.494,Analanjirofo,0.6828018247170902
+nowcast,2021-04-16,7,24,11,17,14,15,Analanjirofo,0.5954749002766778
+Observed by report date,2021-03-13,NA,NA,NA,NA,3,NA,Analanjirofo,1
+Observed by report date,2021-03-14,NA,NA,NA,NA,4,NA,Analanjirofo,1
+Observed by report date,2021-03-15,NA,NA,NA,NA,0,NA,Analanjirofo,1
+Observed by report date,2021-03-16,NA,NA,NA,NA,10,NA,Analanjirofo,1
+Observed by report date,2021-03-17,NA,NA,NA,NA,0,NA,Analanjirofo,1
+Observed by report date,2021-03-18,NA,NA,NA,NA,17,NA,Analanjirofo,1
+Observed by report date,2021-03-19,NA,NA,NA,NA,4,NA,Analanjirofo,1
+Observed by report date,2021-03-20,NA,NA,NA,NA,11,NA,Analanjirofo,1
+Observed by report date,2021-03-21,NA,NA,NA,NA,11,NA,Analanjirofo,1
+Observed by report date,2021-03-22,NA,NA,NA,NA,0,NA,Analanjirofo,1
+Observed by report date,2021-03-23,NA,NA,NA,NA,8,NA,Analanjirofo,1
+Observed by report date,2021-03-24,NA,NA,NA,NA,12,NA,Analanjirofo,1
+Observed by report date,2021-03-25,NA,NA,NA,NA,11,NA,Analanjirofo,1
+Observed by report date,2021-03-26,NA,NA,NA,NA,14,NA,Analanjirofo,1
+Observed by report date,2021-03-27,NA,NA,NA,NA,18,NA,Analanjirofo,1
+Observed by report date,2021-03-28,NA,NA,NA,NA,15,NA,Analanjirofo,1
+Observed by report date,2021-03-29,NA,NA,NA,NA,2,NA,Analanjirofo,1
+Observed by report date,2021-03-30,NA,NA,NA,NA,10,NA,Analanjirofo,1
+Observed by report date,2021-03-31,NA,NA,NA,NA,6,NA,Analanjirofo,1
+Observed by report date,2021-04-01,NA,NA,NA,NA,20,NA,Analanjirofo,1
+Observed by report date,2021-04-02,NA,NA,NA,NA,12,NA,Analanjirofo,1
+Observed by report date,2021-04-03,NA,NA,NA,NA,17,NA,Analanjirofo,1
+Observed by report date,2021-04-04,NA,NA,NA,NA,7,NA,Analanjirofo,1
+Observed by report date,2021-04-05,NA,NA,NA,NA,6,NA,Analanjirofo,1
+Observed by report date,2021-04-06,NA,NA,NA,NA,9,NA,Analanjirofo,1
+Observed by report date,2021-04-07,NA,NA,NA,NA,10,NA,Analanjirofo,1
+Observed by report date,2021-04-08,NA,NA,NA,NA,8,NA,Analanjirofo,1
+Observed by report date,2021-04-09,NA,NA,NA,NA,7,NA,Analanjirofo,1
+Observed by report date,2021-04-10,NA,NA,NA,NA,13,NA,Analanjirofo,1
+Observed by report date,2021-04-11,NA,NA,NA,NA,5,NA,Analanjirofo,1
+Observed by report date,2021-04-12,NA,NA,NA,NA,5,NA,Analanjirofo,1
+Observed by report date,2021-04-13,NA,NA,NA,NA,6,NA,Analanjirofo,1
+Observed by report date,2021-04-14,NA,NA,NA,NA,12,NA,Analanjirofo,1
+Observed by report date,2021-04-15,NA,NA,NA,NA,4,NA,Analanjirofo,1
+Observed by report date,2021-04-16,NA,NA,NA,NA,14,NA,Analanjirofo,1
+Observed by report date,2021-04-17,NA,NA,NA,NA,9,NA,Analanjirofo,1
+Observed by report date,2021-04-18,NA,NA,NA,NA,3,NA,Analanjirofo,1
+Observed by report date,2021-04-19,NA,NA,NA,NA,3,NA,Analanjirofo,1
+Observed by report date,2021-04-20,NA,NA,NA,NA,14,NA,Analanjirofo,1
+Observed by report date,2021-04-21,NA,NA,NA,NA,0,NA,Analanjirofo,1
+Observed by report date,2021-04-22,NA,NA,NA,NA,19,NA,Analanjirofo,1
+Observed by report date,2021-04-23,NA,NA,NA,NA,13,NA,Analanjirofo,1
+Observed by report date,2021-04-24,NA,NA,NA,NA,7,NA,Analanjirofo,1
+nowcast,2021-02-02,1,1,1,1,1,1,Atsimo-Andrefana,1
+nowcast,2021-02-03,0,1,0,1,0.5,0.5,Atsimo-Andrefana,1
+nowcast,2021-02-04,0,1,0,0,0,0.3333333333333333,Atsimo-Andrefana,1
+nowcast,2021-02-05,0,0,0,0,0,0,Atsimo-Andrefana,1
+nowcast,2021-02-06,0,1,0,0,0,0.4,Atsimo-Andrefana,1
+nowcast,2021-02-07,0,1,0,0,0,0.375,Atsimo-Andrefana,1
+nowcast,2021-02-08,0,1,0,0,0,0.2222222222222222,Atsimo-Andrefana,1
+nowcast,2021-02-09,0,1,0,0,0,0.46153846153846156,Atsimo-Andrefana,1
+nowcast,2021-02-10,0,1,0,0,0,0.2777777777777778,Atsimo-Andrefana,1
+nowcast,2021-02-11,0,1,0,0,0,0.30434782608695654,Atsimo-Andrefana,1
+nowcast,2021-02-12,0,1,0,0,0,0.18518518518518517,Atsimo-Andrefana,1
+nowcast,2021-02-13,0,1,0,0,0,0.4418604651162791,Atsimo-Andrefana,1
+nowcast,2021-02-14,0,1,0,0,0,0.35,Atsimo-Andrefana,1
+nowcast,2021-02-15,0,1,0,0,0,0.19117647058823528,Atsimo-Andrefana,1
+nowcast,2021-02-16,0,1,0,0,0,0.3023255813953488,Atsimo-Andrefana,1
+nowcast,2021-02-17,0,1,0,0,0,0.20618556701030927,Atsimo-Andrefana,1
+nowcast,2021-02-18,0,1,0,0,0,0.35294117647058826,Atsimo-Andrefana,1
+nowcast,2021-02-19,0,1,0,0,0,0.4090909090909091,Atsimo-Andrefana,1
+nowcast,2021-02-20,0,1,0,0,0,0.4020618556701031,Atsimo-Andrefana,1
+nowcast,2021-02-21,0,1,0,0,0,0.4595744680851064,Atsimo-Andrefana,1
+nowcast,2021-02-22,0,1,0,0,0,0.40794223826714804,Atsimo-Andrefana,1
+nowcast,2021-02-23,0,1,0,0,0,0.48125,Atsimo-Andrefana,1
+nowcast,2021-02-24,0,1,0,0,0,0.5943661971830986,Atsimo-Andrefana,1
+nowcast,2021-02-25,0,2,0,0,0,0.6262376237623762,Atsimo-Andrefana,1
+nowcast,2021-02-26,0,2,0,1,1,0.6856492027334852,Atsimo-Andrefana,1
+nowcast,2021-02-27,0,2,0,1,1,0.7652173913043478,Atsimo-Andrefana,1
+nowcast,2021-02-28,0,2,0,1,1,0.9665970772442589,Atsimo-Andrefana,1
+nowcast,2021-03-01,0,3,0,1,1,1.1595092024539877,Atsimo-Andrefana,1
+nowcast,2021-03-02,0,3,0,1,1,1.2808080808080808,Atsimo-Andrefana,1
+nowcast,2021-03-03,0,3,0,1,1,1.6144578313253013,Atsimo-Andrefana,1
+nowcast,2021-03-04,0,3,1,2,2,1.822,Atsimo-Andrefana,1
+nowcast,2021-03-05,0,4,1,2,2,2.24,Atsimo-Andrefana,1
+nowcast,2021-03-06,0,4,1,2,2,2.374,Atsimo-Andrefana,1
+nowcast,2021-03-07,0,5,1,3,3,2.784,Atsimo-Andrefana,1
+nowcast,2021-03-08,0,5,1,3,3,3.188,Atsimo-Andrefana,1
+nowcast,2021-03-09,1,6,1,3,3,3.384,Atsimo-Andrefana,1
+nowcast,2021-03-10,1,6,1,3,3,3.584,Atsimo-Andrefana,1
+nowcast,2021-03-11,1,6,1,3,3,3.368,Atsimo-Andrefana,1
+nowcast,2021-03-12,1,6,1,3,3,3.492,Atsimo-Andrefana,1
+nowcast,2021-03-13,1,6,1,3,3,3.23,Atsimo-Andrefana,1
+nowcast,2021-03-14,0,5,1,3,3,2.948,Atsimo-Andrefana,0.9999998545400807
+nowcast,2021-03-15,0,5,1,3,3,3.03,Atsimo-Andrefana,0.9999966052826946
+nowcast,2021-03-16,0,6,2,4,3,3.488,Atsimo-Andrefana,0.9999845914309262
+nowcast,2021-03-17,1,6,1,3,3,3.622,Atsimo-Andrefana,0.9999508802551534
+nowcast,2021-03-18,1,7,2,4,4,4.112,Atsimo-Andrefana,0.9999047688347982
+nowcast,2021-03-19,0,7,3,5,4,4.598,Atsimo-Andrefana,0.9998471584203088
+nowcast,2021-03-20,1,9,3,6,5,5.532,Atsimo-Andrefana,0.9997682465015146
+nowcast,2021-03-21,2,10,3,6,6,6.35,Atsimo-Andrefana,0.9996504983024359
+nowcast,2021-03-22,2,10,4,7,7,6.982,Atsimo-Andrefana,0.9994848893473047
+nowcast,2021-03-23,2,11,5,8,7,7.572,Atsimo-Andrefana,0.9992754048711505
+nowcast,2021-03-24,3,12,6,9,8,8.422,Atsimo-Andrefana,0.9990015631142785
+nowcast,2021-03-25,3,13,5,9,9,9.084,Atsimo-Andrefana,0.9986353969587458
+nowcast,2021-03-26,5,15,8,11,10,10.028,Atsimo-Andrefana,0.9981537720229732
+nowcast,2021-03-27,6,15,7,11,11,10.608,Atsimo-Andrefana,0.997539047216155
+nowcast,2021-03-28,6,16,8,12,11,11.54,Atsimo-Andrefana,0.9967591732995473
+nowcast,2021-03-29,6,17,9,13,12,12.078,Atsimo-Andrefana,0.9957620758494283
+nowcast,2021-03-30,7,18,10,14,13,12.728,Atsimo-Andrefana,0.9944571840856982
+nowcast,2021-03-31,8,18,10,14,13,13.47,Atsimo-Andrefana,0.9927550627663293
+nowcast,2021-04-01,7,18,11,15,14,13.882,Atsimo-Andrefana,0.9905835331494113
+nowcast,2021-04-02,8,21,11,16,15,15.176,Atsimo-Andrefana,0.9878292721536833
+nowcast,2021-04-03,10,22,11,16,15,15.436,Atsimo-Andrefana,0.9843171696089408
+nowcast,2021-04-04,10,22,12,17,16,16.484,Atsimo-Andrefana,0.9798433160971265
+nowcast,2021-04-05,11,23,13,18,17,16.984,Atsimo-Andrefana,0.974087545627415
+nowcast,2021-04-06,11,23,13,18,17,17.212,Atsimo-Andrefana,0.9667878825741171
+nowcast,2021-04-07,10,24,14,19,17,17.57,Atsimo-Andrefana,0.9575238100302338
+nowcast,2021-04-08,10,23,14,19,18,17.852,Atsimo-Andrefana,0.945766387951739
+nowcast,2021-04-09,11,24,15,20,17,17.618,Atsimo-Andrefana,0.930825087032121
+nowcast,2021-04-10,11,25,13,19,18,18.184,Atsimo-Andrefana,0.9118062454173513
+nowcast,2021-04-11,10,24,14,19,17,17.208,Atsimo-Andrefana,0.88754821322483
+nowcast,2021-04-12,11,24,13,18,17,16.664,Atsimo-Andrefana,0.8565376370665594
+nowcast,2021-04-13,8,22,12,17,16,16.412,Atsimo-Andrefana,0.816810429456986
+nowcast,2021-04-14,8,23,10,16,15,15.918,Atsimo-Andrefana,0.7658618197027296
+nowcast,2021-04-15,7,24,10,17,16,16.704,Atsimo-Andrefana,0.7006471718628381
+nowcast,2021-04-16,6,25,10,17,16,17.056,Atsimo-Andrefana,0.6178910998465728
 Observed by report date,2021-03-16,NA,NA,NA,NA,22,NA,Atsimo-Andrefana,1
 Observed by report date,2021-03-17,NA,NA,NA,NA,5,NA,Atsimo-Andrefana,1
 Observed by report date,2021-03-18,NA,NA,NA,NA,0,NA,Atsimo-Andrefana,1
@@ -279,191 +528,102 @@ Observed by report date,2021-04-12,NA,NA,NA,NA,0,NA,Atsimo-Andrefana,1
 Observed by report date,2021-04-13,NA,NA,NA,NA,25,NA,Atsimo-Andrefana,1
 Observed by report date,2021-04-14,NA,NA,NA,NA,30,NA,Atsimo-Andrefana,1
 Observed by report date,2021-04-15,NA,NA,NA,NA,19,NA,Atsimo-Andrefana,1
-nowcast,2021-01-26,1,1,1,1,1,1,Atsinanana,1
-nowcast,2021-01-27,0,1,0,1,0.5,0.5,Atsinanana,1
-nowcast,2021-01-28,0,0,0,0,0,0,Atsinanana,1
-nowcast,2021-01-29,0,1,0,0,0,0.3333333333333333,Atsinanana,1
-nowcast,2021-01-30,0,0,0,0,0,0,Atsinanana,1
-nowcast,2021-01-31,0,1,0,0,0,0.25,Atsinanana,1
-nowcast,2021-02-01,0,1,0,0,0,0.4,Atsinanana,1
-nowcast,2021-02-02,0,1,0,0,0,0.42857142857142855,Atsinanana,1
-nowcast,2021-02-03,0,1,1,1,1,0.5333333333333333,Atsinanana,1
-nowcast,2021-02-04,0,1,0,0,0,0.4090909090909091,Atsinanana,1
-nowcast,2021-02-05,0,1,0,0,0,0.2692307692307692,Atsinanana,1
-nowcast,2021-02-06,0,1,0,0,0,0.3125,Atsinanana,1
-nowcast,2021-02-07,0,1,0,0,0,0.3170731707317073,Atsinanana,1
-nowcast,2021-02-08,0,1,0,0,0,0.3673469387755102,Atsinanana,1
-nowcast,2021-02-09,0,1,0,0,0,0.25862068965517243,Atsinanana,1
-nowcast,2021-02-10,0,1,0,0,0,0.3972602739726027,Atsinanana,1
-nowcast,2021-02-11,0,1,0,0,0,0.32954545454545453,Atsinanana,1
-nowcast,2021-02-12,0,1,0,0,0,0.37168141592920356,Atsinanana,1
-nowcast,2021-02-13,0,1,0,0,0,0.41605839416058393,Atsinanana,1
-nowcast,2021-02-14,0,1,0,0,0,0.4662576687116564,Atsinanana,1
-nowcast,2021-02-15,0,1,0,0,0,0.4072164948453608,Atsinanana,1
-nowcast,2021-02-16,0,1,0,0,0,0.55,Atsinanana,1
-nowcast,2021-02-17,0,1,0,0,0,0.5555555555555556,Atsinanana,1
-nowcast,2021-02-18,0,1,0,0,0,0.5923566878980892,Atsinanana,1
-nowcast,2021-02-19,0,2,0,0,0,0.6561604584527221,Atsinanana,1
-nowcast,2021-02-20,0,2,0,1,1,0.7953964194373402,Atsinanana,1
-nowcast,2021-02-21,0,2,0,1,1,0.883177570093458,Atsinanana,1
-nowcast,2021-02-22,0,2,0,1,1,0.9890829694323144,Atsinanana,1
-nowcast,2021-02-23,0,3,0,1,1,1.1326315789473684,Atsinanana,1
-nowcast,2021-02-24,0,3,0,1,1,1.4774590163934427,Atsinanana,1
-nowcast,2021-02-25,0,4,1,2,2,1.8101010101010102,Atsinanana,1
-nowcast,2021-02-26,0,4,1,2,2,2.0582329317269075,Atsinanana,1
-nowcast,2021-02-27,0,5,0,2,2,2.75,Atsinanana,1
-nowcast,2021-02-28,1,6,1,3,3,3.05,Atsinanana,1
-nowcast,2021-03-01,1,7,2,4,3,3.79,Atsinanana,1
-nowcast,2021-03-02,1,8,2,5,5,4.594,Atsinanana,1
-nowcast,2021-03-03,1,9,3,6,5,5.386,Atsinanana,1
-nowcast,2021-03-04,2,10,3,6,6,6.322,Atsinanana,1
-nowcast,2021-03-05,3,11,4,7,7,7.298,Atsinanana,1
-nowcast,2021-03-06,3,13,7,10,8,8.594,Atsinanana,0.9999986438302765
-nowcast,2021-03-07,5,14,7,10,9,9.338,Atsinanana,0.9999857878699515
-nowcast,2021-03-08,5,15,7,11,10,10.374,Atsinanana,0.9999538435948212
-nowcast,2021-03-09,6,16,8,12,11,11.352,Atsinanana,0.9999083817530834
-nowcast,2021-03-10,7,17,8,12,12,12.086,Atsinanana,0.9998515620675701
-nowcast,2021-03-11,7,17,9,13,12,12.594,Atsinanana,0.999778258266542
-nowcast,2021-03-12,7,17,9,13,12,12.54,Atsinanana,0.9996640753738032
-nowcast,2021-03-13,7,18,9,14,13,13.324,Atsinanana,0.9995050473724311
-nowcast,2021-03-14,8,19,11,15,13,12.988,Atsinanana,0.9993004095556023
-nowcast,2021-03-15,8,19,11,15,13,13.648,Atsinanana,0.9990405451932666
-nowcast,2021-03-16,8,20,10,15,14,14.156,Atsinanana,0.9986782031732206
-nowcast,2021-03-17,9,20,10,15,14.5,14.612,Atsinanana,0.998195064459265
-nowcast,2021-03-18,8,20,10,15,14,14.598,Atsinanana,0.9975744267368271
-nowcast,2021-03-19,9,21,11,16,16,15.614,Atsinanana,0.9967882647751874
-nowcast,2021-03-20,9,21,11,16,15,15.584,Atsinanana,0.9957757116728064
-nowcast,2021-03-21,8,21,11,16,15,15.39,Atsinanana,0.9944449304327158
-nowcast,2021-03-22,8,20,13,17,15,15.182,Atsinanana,0.9927345217476778
-nowcast,2021-03-23,9,20,12,16,14,14.418,Atsinanana,0.9905431886259112
-nowcast,2021-03-24,8,20,10,15,14,13.864,Atsinanana,0.9877638430553021
-nowcast,2021-03-25,6,17,11,15,13,12.85,Atsinanana,0.9842260775828762
-nowcast,2021-03-26,6,17,9,13,12,12.106,Atsinanana,0.9797194613601328
-nowcast,2021-03-27,6,16,7,11,11,11.02,Atsinanana,0.9740017437641202
-nowcast,2021-03-28,4,14,7,11,10,10.352,Atsinanana,0.966671109565416
-nowcast,2021-03-29,5,14,6,10,9,9.588,Atsinanana,0.9573715162967419
-nowcast,2021-03-30,4,13,7,10,9,9.238,Atsinanana,0.9455760057424946
-nowcast,2021-03-31,4,14,5,9,9,9.28,Atsinanana,0.9305990979723403
-nowcast,2021-04-01,4,14,8,11,9,9.472,Atsinanana,0.911557976308069
-nowcast,2021-04-02,4,14,6,10,10,9.946,Atsinanana,0.8873118911584148
-nowcast,2021-04-03,4,15,8,12,10,10.742,Atsinanana,0.8563846208357905
-nowcast,2021-04-04,6,18,7,12,12,11.824,Atsinanana,0.8168729147996903
-nowcast,2021-04-05,6,19,8,13,12,13.068,Atsinanana,0.7663618241110834
-nowcast,2021-04-06,6,22,8,15,14.5,15.018,Atsinanana,0.7019181267176352
-nowcast,2021-04-07,9,28,10,18,17,17.81,Atsinanana,0.6203549228882901
-Observed by report date,2021-03-13,NA,NA,NA,NA,14,NA,Atsinanana,1
-Observed by report date,2021-03-14,NA,NA,NA,NA,0,NA,Atsinanana,1
-Observed by report date,2021-03-15,NA,NA,NA,NA,9,NA,Atsinanana,1
-Observed by report date,2021-03-16,NA,NA,NA,NA,24,NA,Atsinanana,1
-Observed by report date,2021-03-17,NA,NA,NA,NA,17,NA,Atsinanana,1
-Observed by report date,2021-03-18,NA,NA,NA,NA,1,NA,Atsinanana,1
-Observed by report date,2021-03-19,NA,NA,NA,NA,15,NA,Atsinanana,1
-Observed by report date,2021-03-20,NA,NA,NA,NA,14,NA,Atsinanana,1
-Observed by report date,2021-03-21,NA,NA,NA,NA,0,NA,Atsinanana,1
-Observed by report date,2021-03-22,NA,NA,NA,NA,2,NA,Atsinanana,1
-Observed by report date,2021-03-23,NA,NA,NA,NA,21,NA,Atsinanana,1
-Observed by report date,2021-03-24,NA,NA,NA,NA,24,NA,Atsinanana,1
-Observed by report date,2021-03-25,NA,NA,NA,NA,17,NA,Atsinanana,1
-Observed by report date,2021-03-26,NA,NA,NA,NA,13,NA,Atsinanana,1
-Observed by report date,2021-03-27,NA,NA,NA,NA,12,NA,Atsinanana,1
-Observed by report date,2021-03-28,NA,NA,NA,NA,22,NA,Atsinanana,1
-Observed by report date,2021-03-29,NA,NA,NA,NA,16,NA,Atsinanana,1
-Observed by report date,2021-03-30,NA,NA,NA,NA,18,NA,Atsinanana,1
-Observed by report date,2021-03-31,NA,NA,NA,NA,31,NA,Atsinanana,1
-Observed by report date,2021-04-01,NA,NA,NA,NA,13,NA,Atsinanana,1
-Observed by report date,2021-04-02,NA,NA,NA,NA,18,NA,Atsinanana,1
-Observed by report date,2021-04-03,NA,NA,NA,NA,10,NA,Atsinanana,1
-Observed by report date,2021-04-04,NA,NA,NA,NA,2,NA,Atsinanana,1
-Observed by report date,2021-04-05,NA,NA,NA,NA,5,NA,Atsinanana,1
-Observed by report date,2021-04-06,NA,NA,NA,NA,2,NA,Atsinanana,1
-Observed by report date,2021-04-07,NA,NA,NA,NA,26,NA,Atsinanana,1
-Observed by report date,2021-04-08,NA,NA,NA,NA,6,NA,Atsinanana,1
-Observed by report date,2021-04-09,NA,NA,NA,NA,0,NA,Atsinanana,1
-Observed by report date,2021-04-10,NA,NA,NA,NA,4,NA,Atsinanana,1
-Observed by report date,2021-04-11,NA,NA,NA,NA,2,NA,Atsinanana,1
-Observed by report date,2021-04-12,NA,NA,NA,NA,0,NA,Atsinanana,1
-Observed by report date,2021-04-13,NA,NA,NA,NA,10,NA,Atsinanana,1
-Observed by report date,2021-04-14,NA,NA,NA,NA,38,NA,Atsinanana,1
-Observed by report date,2021-04-15,NA,NA,NA,NA,11,NA,Atsinanana,1
-nowcast,2021-01-19,1,1,1,1,1,1,National,1
-nowcast,2021-01-20,0,0,0,0,0,0,National,1
+Observed by report date,2021-04-16,NA,NA,NA,NA,18,NA,Atsimo-Andrefana,1
+Observed by report date,2021-04-17,NA,NA,NA,NA,30,NA,Atsimo-Andrefana,1
+Observed by report date,2021-04-18,NA,NA,NA,NA,13,NA,Atsimo-Andrefana,1
+Observed by report date,2021-04-19,NA,NA,NA,NA,4,NA,Atsimo-Andrefana,1
+Observed by report date,2021-04-20,NA,NA,NA,NA,18,NA,Atsimo-Andrefana,1
+Observed by report date,2021-04-21,NA,NA,NA,NA,14,NA,Atsimo-Andrefana,1
+Observed by report date,2021-04-22,NA,NA,NA,NA,11,NA,Atsimo-Andrefana,1
+Observed by report date,2021-04-23,NA,NA,NA,NA,13,NA,Atsimo-Andrefana,1
+Observed by report date,2021-04-24,NA,NA,NA,NA,11,NA,Atsimo-Andrefana,1
+nowcast,2021-01-20,1,1,1,1,1,1,National,1
 nowcast,2021-01-21,0,1,0,1,0.5,0.5,National,1
 nowcast,2021-01-22,0,0,0,0,0,0,National,1
 nowcast,2021-01-23,0,1,0,0,0,0.3333333333333333,National,1
-nowcast,2021-01-24,0,1,0,0,0,0.4,National,1
-nowcast,2021-01-25,0,1,0,0,0,0.375,National,1
-nowcast,2021-01-26,0,1,0,0,0,0.2222222222222222,National,1
-nowcast,2021-01-27,0,1,0,0,0,0.46153846153846156,National,1
-nowcast,2021-01-28,0,1,0,0,0,0.47619047619047616,National,1
-nowcast,2021-01-29,0,1,0,0,0,0.25,National,1
-nowcast,2021-01-30,0,1,0,0,0,0.3142857142857143,National,1
-nowcast,2021-01-31,0,1,0,0,0,0.26666666666666666,National,1
-nowcast,2021-02-01,0,1,0,0,0,0.4426229508196721,National,1
-nowcast,2021-02-02,0,1,0,0,0,0.4074074074074074,National,1
-nowcast,2021-02-03,0,1,0,0,0,0.4948453608247423,National,1
-nowcast,2021-02-04,0,1,0,0,0,0.47580645161290325,National,1
-nowcast,2021-02-05,0,1,0,0,0,0.5133333333333333,National,1
-nowcast,2021-02-06,0,2,0,1,1,0.6815642458100558,National,1
-nowcast,2021-02-07,0,2,0,0,0,0.6398104265402843,National,1
-nowcast,2021-02-08,0,2,0,1,1,0.7642276422764228,National,1
-nowcast,2021-02-09,0,2,0,1,1,0.7992831541218638,National,1
-nowcast,2021-02-10,0,2,0,1,1,0.9046153846153846,National,1
-nowcast,2021-02-11,0,3,0,1,1,1.1083333333333334,National,1
-nowcast,2021-02-12,0,3,0,1,1,1.3202933985330074,National,1
-nowcast,2021-02-13,0,3,0,1,1,1.4389140271493213,National,1
-nowcast,2021-02-14,0,4,0,1,1,1.8687089715536105,National,1
-nowcast,2021-02-15,0,5,0,2,2,2.166315789473684,National,1
-nowcast,2021-02-16,0,6,0,2,2,2.8952772073921973,National,1
-nowcast,2021-02-17,0,8,1,3,3,3.6458752515090542,National,1
-nowcast,2021-02-18,0,9,1,4,4,4.449799196787149,National,1
-nowcast,2021-02-19,0,11,1,5,5,5.695390781563126,National,1
-nowcast,2021-02-20,0,13,1,6,6,7.05,National,1
-nowcast,2021-02-21,1,16,4,9,8,9.002,National,1
-nowcast,2021-02-22,2,20,5,11,10,11.044,National,1
-nowcast,2021-02-23,2,23,5,13,13,13.856,National,1
-nowcast,2021-02-24,5,28,7,17,16,17.236,National,1
-nowcast,2021-02-25,8,34,10,21,20,21.338,National,1
-nowcast,2021-02-26,13,40,14,26,25,25.978,National,1
-nowcast,2021-02-27,11,46,19,33,30.5,31.368,National,1
-nowcast,2021-02-28,18,57,29,43,37,38.846,National,1
-nowcast,2021-03-01,26,70,32,49,45.5,46.696,National,1
-nowcast,2021-03-02,31,76,43,60,55,56.214,National,1
-nowcast,2021-03-03,40,88,54,73,66,67.054,National,1
-nowcast,2021-03-04,52,104,66,86,78,78.498,National,1
-nowcast,2021-03-05,63,117,76,98,92,92.594,National,1
-nowcast,2021-03-06,81,132,96,116,106,106.442,National,1
-nowcast,2021-03-07,91,142,104,125,119,119.416,National,1
-nowcast,2021-03-08,105,155,120,140,132,133.374,National,0.9999850134504635
-nowcast,2021-03-09,120,169,132,152,146,146.1,National,0.9999472954600991
-nowcast,2021-03-10,134,184,139,161,156,156.352,National,0.9999001581987849
-nowcast,2021-03-11,137,189,154,173,164,164.698,National,0.999841226286055
-nowcast,2021-03-12,150,196,159,178,171,172.186,National,0.9997675218596775
-nowcast,2021-03-13,150,204,164,186,180,180.474,National,0.9996428362927174
-nowcast,2021-03-14,160,214,172,194,185,186.214,National,0.9994730202536496
-nowcast,2021-03-15,167,223,180,203,196,196.548,National,0.9992601033943147
-nowcast,2021-03-16,176,233,189,213,204,205.016,National,0.9989931078991692
-nowcast,2021-03-17,184,246,200,226,215,215.642,National,0.998612145503249
-nowcast,2021-03-18,195,260,208,236,225,226.208,National,0.9980975604334837
-nowcast,2021-03-19,207,270,221,247,237,238.632,National,0.9974506463196667
-nowcast,2021-03-20,219,281,234,261,251.5,251.672,National,0.9966369777299554
-nowcast,2021-03-21,229,291,248,271,261,262.16,National,0.9955831659945464
-nowcast,2021-03-22,241,307,257,284,275,276.036,National,0.9941861468160252
-nowcast,2021-03-23,249,317,269,296,285,285.63,National,0.9923841407411179
-nowcast,2021-03-24,264,336,278,306,296,296.92,National,0.9900829292243797
-nowcast,2021-03-25,272,343,289,318,306,306.62,National,0.9871715143154718
-nowcast,2021-03-26,279,356,299,330,318,319.108,National,0.9834862842958618
-nowcast,2021-03-27,292,374,320,355,336,336.492,National,0.978747812485519
-nowcast,2021-03-28,301,397,325,365,352,352.586,National,0.9727423490704128
-nowcast,2021-03-29,325,419,345,383,372.5,374.582,National,0.9650266920629967
-nowcast,2021-03-30,344,439,375,414,398,396.83,National,0.9552329999153921
-nowcast,2021-03-31,378,472,402,439,424,425.322,National,0.942789660068188
-nowcast,2021-04-01,410,511,430,472,456,457.716,National,0.9269608161380145
-nowcast,2021-04-02,439,538,474,513,488,489.056,National,0.90679540578749
-nowcast,2021-04-03,476,561,503,538,519.5,519.06,National,0.8810597267896508
-nowcast,2021-04-04,501,591,538,573,547,546.82,National,0.8481507963327396
-nowcast,2021-04-05,522,613,551,590,572,572.298,National,0.8059940401143746
-nowcast,2021-04-06,546,637,571,609,596.5,595.522,National,0.7519503097953025
-nowcast,2021-04-07,575,680,600,640,621,622.646,National,0.682818176404563
+nowcast,2021-01-24,0,0,0,0,0,0,National,1
+nowcast,2021-01-25,0,1,0,0,0,0.25,National,1
+nowcast,2021-01-26,0,1,0,0,0,0.2,National,1
+nowcast,2021-01-27,0,1,0,0,0,0.375,National,1
+nowcast,2021-01-28,0,1,0,0,0,0.3,National,1
+nowcast,2021-01-29,0,1,0,0,0,0.2857142857142857,National,1
+nowcast,2021-01-30,0,1,0,0,0,0.2777777777777778,National,1
+nowcast,2021-01-31,0,1,0,0,0,0.46153846153846156,National,1
+nowcast,2021-02-01,0,1,0,0,0,0.22580645161290322,National,1
+nowcast,2021-02-02,0,1,0,0,0,0.46938775510204084,National,1
+nowcast,2021-02-03,0,1,0,0,0,0.45714285714285713,National,1
+nowcast,2021-02-04,0,1,0,0,0,0.494949494949495,National,1
+nowcast,2021-02-05,0,1,0,0,0,0.423728813559322,National,1
+nowcast,2021-02-06,0,1,0,0,0,0.4896551724137931,National,1
+nowcast,2021-02-07,0,1,0,0,0,0.5439560439560439,National,1
+nowcast,2021-02-08,0,2,0,0,0,0.6926605504587156,National,1
+nowcast,2021-02-09,0,1,0,0,0,0.6062992125984252,National,1
+nowcast,2021-02-10,0,2,0,1,1,0.8605442176870748,National,1
+nowcast,2021-02-11,0,2,0,1,1,0.8761329305135952,National,1
+nowcast,2021-02-12,0,3,0,1,1,1.1212938005390836,National,1
+nowcast,2021-02-13,0,3,0,1,1,1.2904040404040404,National,1
+nowcast,2021-02-14,0,4,0,1,1,1.5490654205607477,National,1
+nowcast,2021-02-15,0,4,0,1,1,1.8232662192393736,National,1
+nowcast,2021-02-16,0,5,0,2,2,2.265217391304348,National,1
+nowcast,2021-02-17,0,6,0,2,2,2.873150105708245,National,1
+nowcast,2021-02-18,0,7,1,3,3,3.5195071868583163,National,1
+nowcast,2021-02-19,0,9,1,4,4,4.331983805668016,National,1
+nowcast,2021-02-20,0,10,1,5,5,5.385542168674699,National,1
+nowcast,2021-02-21,0,12,1,6,6,6.868,National,1
+nowcast,2021-02-22,1,16,3,8,8,8.926,National,1
+nowcast,2021-02-23,2,19,3,10,10,10.754,National,1
+nowcast,2021-02-24,3,23,4,12,12,13.6,National,1
+nowcast,2021-02-25,6,29,7,17,16,16.842,National,1
+nowcast,2021-02-26,8,34,11,22,20,20.848,National,1
+nowcast,2021-02-27,10,40,17,28,25,25.892,National,1
+nowcast,2021-02-28,15,51,19,32,30,31.076,National,1
+nowcast,2021-03-01,20,57,26,41,37,38.186,National,1
+nowcast,2021-03-02,24,68,36,51,45,46.682,National,1
+nowcast,2021-03-03,32,77,39,58,55,56.092,National,1
+nowcast,2021-03-04,42,90,51,71,65,66.364,National,1
+nowcast,2021-03-05,55,106,63,84,77,78.37,National,1
+nowcast,2021-03-06,62,113,81,100,89,90.368,National,1
+nowcast,2021-03-07,77,128,89,108,103,104.766,National,1
+nowcast,2021-03-08,92,144,106,127,117,118.418,National,1
+nowcast,2021-03-09,105,158,120,140,130,131.222,National,1
+nowcast,2021-03-10,116,169,127,148,142,142.53,National,1
+nowcast,2021-03-11,127,175,146,164,152,152.066,National,1
+nowcast,2021-03-12,134,186,148,169,160,160.028,National,1
+nowcast,2021-03-13,140,195,154,176,167,167.832,National,1
+nowcast,2021-03-14,147,203,161,183,174,175.17,National,1
+nowcast,2021-03-15,150,209,173,193,181,182.084,National,1
+nowcast,2021-03-16,160,224,178,202,190,189.926,National,1
+nowcast,2021-03-17,163,227,178,206,197,198.072,National,0.9999850134504635
+nowcast,2021-03-18,171,240,193,221,208,209.154,National,0.9999472954600991
+nowcast,2021-03-19,189,257,196,223,219,219.784,National,0.9999001581987849
+nowcast,2021-03-20,197,266,214,242,233,233.504,National,0.999841226286055
+nowcast,2021-03-21,211,280,231,259,246,245.57,National,0.9997675218596775
+nowcast,2021-03-22,225,298,242,269,255.5,257.88,National,0.9996428362927174
+nowcast,2021-03-23,230,305,247,279,269,269.264,National,0.9994730202536496
+nowcast,2021-03-24,240,317,260,291,279,279.998,National,0.9992601033943147
+nowcast,2021-03-25,252,338,271,302,289,291.698,National,0.9989931078991692
+nowcast,2021-03-26,256,346,279,312,301,301.442,National,0.998612145503249
+nowcast,2021-03-27,261,354,293,331,312,313.676,National,0.9981132708608054
+nowcast,2021-03-28,279,379,310,349,332,331.54,National,0.9974857172700026
+nowcast,2021-03-29,301,400,324,367,350,350.934,National,0.9966959863644769
+nowcast,2021-03-30,325,436,348,391,370,371.382,National,0.99567187077498
+nowcast,2021-03-31,341,447,376,419,398,397.176,National,0.9943117988821111
+nowcast,2021-04-01,375,486,400,443,424,423.882,National,0.9925559072506565
+nowcast,2021-04-02,401,508,435,478,453,452.93,National,0.9903124125200126
+nowcast,2021-04-03,435,533,455,495,479,480.168,National,0.9874734210098397
+nowcast,2021-04-04,451,548,486,524,503,503.262,National,0.9838792589175283
+nowcast,2021-04-05,479,573,508,545,523,522.112,National,0.9792552283396537
+nowcast,2021-04-06,493,587,523,565,537,536.532,National,0.9733938367627606
+nowcast,2021-04-07,493,589,528,565,544,544.834,National,0.9658593461878775
+nowcast,2021-04-08,516,605,536,570,556,556.542,National,0.9562929361258199
+nowcast,2021-04-09,520,611,541,578,564,563.822,National,0.9441333505281998
+nowcast,2021-04-10,520,609,543,581,568,567.518,National,0.9286558846522496
+nowcast,2021-04-11,511,607,553,589,567.5,567.238,National,0.9089200132254244
+nowcast,2021-04-12,509,605,537,574,556,558.028,National,0.8836990425374859
+nowcast,2021-04-13,503,595,518,558,547.5,548.242,National,0.8513879843028319
+nowcast,2021-04-14,482,593,525,567,547,544.146,National,0.8098914602927921
+nowcast,2021-04-15,493,614,531,574,549.5,551.726,National,0.7565137348117998
+nowcast,2021-04-16,497,627,537,588,565,566.256,National,0.6879319596539752
 Observed by report date,2021-03-13,NA,NA,NA,NA,124,NA,National,1
 Observed by report date,2021-03-14,NA,NA,NA,NA,105,NA,National,1
 Observed by report date,2021-03-15,NA,NA,NA,NA,101,NA,National,1
@@ -498,101 +658,12 @@ Observed by report date,2021-04-12,NA,NA,NA,NA,224,NA,National,1
 Observed by report date,2021-04-13,NA,NA,NA,NA,583,NA,National,1
 Observed by report date,2021-04-14,NA,NA,NA,NA,859,NA,National,1
 Observed by report date,2021-04-15,NA,NA,NA,NA,832,NA,National,1
-nowcast,2021-01-31,1,1,1,1,1,1,Sofia,1
-nowcast,2021-02-01,0,0,0,0,0,0,Sofia,1
-nowcast,2021-02-02,0,0,0,0,0,0,Sofia,1
-nowcast,2021-02-03,0,0,0,0,0,0,Sofia,1
-nowcast,2021-02-04,0,0,0,0,0,0,Sofia,1
-nowcast,2021-02-05,0,1,0,1,0.5,0.5,Sofia,1
-nowcast,2021-02-06,0,1,0,0,0,0.3333333333333333,Sofia,1
-nowcast,2021-02-07,0,1,0,0,0,0.25,Sofia,1
-nowcast,2021-02-08,0,1,0,0,0,0.42857142857142855,Sofia,1
-nowcast,2021-02-09,0,1,0,0,0,0.4,Sofia,1
-nowcast,2021-02-10,0,1,0,0,0,0.3333333333333333,Sofia,1
-nowcast,2021-02-11,0,1,0,0,0,0.36363636363636365,Sofia,1
-nowcast,2021-02-12,0,1,0,0,0,0.42857142857142855,Sofia,1
-nowcast,2021-02-13,0,1,0,0,0,0.20454545454545456,Sofia,1
-nowcast,2021-02-14,0,1,0,0,0,0.3157894736842105,Sofia,1
-nowcast,2021-02-15,0,1,0,0,0,0.35294117647058826,Sofia,1
-nowcast,2021-02-16,0,1,0,0,0,0.3411764705882353,Sofia,1
-nowcast,2021-02-17,0,1,0,0,0,0.36363636363636365,Sofia,1
-nowcast,2021-02-18,0,1,0,0,0,0.3,Sofia,1
-nowcast,2021-02-19,0,1,0,0,0,0.44654088050314467,Sofia,1
-nowcast,2021-02-20,0,1,0,0,0,0.38235294117647056,Sofia,1
-nowcast,2021-02-21,0,1,0,0,0,0.35319148936170214,Sofia,1
-nowcast,2021-02-22,0,1,0,0,0,0.4411764705882353,Sofia,1
-nowcast,2021-02-23,0,1,0,0,0,0.44694533762057875,Sofia,1
-nowcast,2021-02-24,0,1,0,0,0,0.5014492753623189,Sofia,1
-nowcast,2021-02-25,0,1,0,0,0,0.5747422680412371,Sofia,1
-nowcast,2021-02-26,0,2,0,1,1,0.7315914489311164,Sofia,1
-nowcast,2021-02-27,0,2,0,1,1,0.755656108597285,Sofia,1
-nowcast,2021-02-28,0,2,0,1,1,0.8893709327548807,Sofia,1
-nowcast,2021-03-01,0,2,0,1,1,1.0585774058577406,Sofia,1
-nowcast,2021-03-02,0,3,0,1,1,1.1987704918032787,Sofia,1
-nowcast,2021-03-03,0,3,0,1,1,1.4190283400809716,Sofia,1
-nowcast,2021-03-04,0,4,0,1,1,1.738,Sofia,1
-nowcast,2021-03-05,0,4,0,2,2,2.094,Sofia,0.9999998090858396
-nowcast,2021-03-06,0,5,0,2,2,2.5,Sofia,0.9999977406800147
-nowcast,2021-03-07,0,5,1,3,3,2.856,Sofia,0.999978890444811
-nowcast,2021-03-08,1,6,1,3,3,3.254,Sofia,0.9999403039149326
-nowcast,2021-03-09,1,6,1,3,3,3.616,Sofia,0.9998916483294039
-nowcast,2021-03-10,1,7,2,4,4,4.02,Sofia,0.9998308682253262
-nowcast,2021-03-11,1,7,2,4,4,4.276,Sofia,0.9997500483003494
-nowcast,2021-03-12,1,7,3,5,4,4.516,Sofia,0.9996206497457144
-nowcast,2021-03-13,1,7,3,5,4,4.524,Sofia,0.9994472474557484
-nowcast,2021-03-14,1,7,3,5,5,4.702,Sofia,0.9992283919658724
-nowcast,2021-03-15,1,7,3,5,5,4.726,Sofia,0.9989449220072578
-nowcast,2021-03-16,1,7,3,5,4,4.686,Sofia,0.9985507585347371
-nowcast,2021-03-17,2,8,3,5,5,4.652,Sofia,0.9980249751813494
-nowcast,2021-03-18,1,8,2,5,5,4.906,Sofia,0.9973614039808479
-nowcast,2021-03-19,1,8,4,6,5,5.054,Sofia,0.9965260932724181
-nowcast,2021-03-20,1,8,2,5,5,5.334,Sofia,0.9954431048719864
-nowcast,2021-03-21,3,9,4,6,6,5.766,Sofia,0.9940086834455343
-nowcast,2021-03-22,1,9,3,6,6,5.888,Sofia,0.9921655991191202
-nowcast,2021-03-23,3,10,3,6,6,6.16,Sofia,0.989816079162631
-nowcast,2021-03-24,1,9,3,6,6,6.016,Sofia,0.9868433062909023
-nowcast,2021-03-25,2,10,3,6,6,6.366,Sofia,0.9830742693519086
-nowcast,2021-03-26,3,11,4,7,6,6.632,Sofia,0.9782405026190094
-nowcast,2021-03-27,3,10,5,8,7,7.128,Sofia,0.9720431592590245
-nowcast,2021-03-28,3,12,5,8,7.5,7.784,Sofia,0.9641646516617707
-nowcast,2021-03-29,3,12,6,9,8,8.316,Sofia,0.9541715784212618
-nowcast,2021-03-30,3,13,5,9,9,9.116,Sofia,0.9414849911794984
-nowcast,2021-03-31,4,14,6,10,10,9.774,Sofia,0.9253608580012918
-nowcast,2021-04-01,5,16,7,11,11,10.746,Sofia,0.9048396231168452
-nowcast,2021-04-02,5,17,7,12,11,11.762,Sofia,0.8786800772662847
-nowcast,2021-04-03,6,19,8,13,13,12.954,Sofia,0.8452756164327114
-nowcast,2021-04-04,8,22,9,15,15,15.574,Sofia,0.8025580157613139
-nowcast,2021-04-05,9,26,12,19,18,18.324,Sofia,0.7479167793085139
-nowcast,2021-04-06,12,31,14,22,21,21.654,Sofia,0.6782256870944003
-nowcast,2021-04-07,13,37,18,26,24,24.93,Sofia,0.5902228662651242
-Observed by report date,2021-03-16,NA,NA,NA,NA,10,NA,Sofia,1
-Observed by report date,2021-03-17,NA,NA,NA,NA,2,NA,Sofia,1
-Observed by report date,2021-03-18,NA,NA,NA,NA,1,NA,Sofia,1
-Observed by report date,2021-03-19,NA,NA,NA,NA,10,NA,Sofia,1
-Observed by report date,2021-03-20,NA,NA,NA,NA,11,NA,Sofia,1
-Observed by report date,2021-03-21,NA,NA,NA,NA,1,NA,Sofia,1
-Observed by report date,2021-03-22,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-03-23,NA,NA,NA,NA,3,NA,Sofia,1
-Observed by report date,2021-03-24,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-03-25,NA,NA,NA,NA,1,NA,Sofia,1
-Observed by report date,2021-03-26,NA,NA,NA,NA,12,NA,Sofia,1
-Observed by report date,2021-03-27,NA,NA,NA,NA,4,NA,Sofia,1
-Observed by report date,2021-03-28,NA,NA,NA,NA,17,NA,Sofia,1
-Observed by report date,2021-03-29,NA,NA,NA,NA,1,NA,Sofia,1
-Observed by report date,2021-03-30,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-03-31,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-04-01,NA,NA,NA,NA,1,NA,Sofia,1
-Observed by report date,2021-04-02,NA,NA,NA,NA,5,NA,Sofia,1
-Observed by report date,2021-04-03,NA,NA,NA,NA,25,NA,Sofia,1
-Observed by report date,2021-04-04,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-04-05,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-04-06,NA,NA,NA,NA,16,NA,Sofia,1
-Observed by report date,2021-04-07,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-04-08,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-04-09,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-04-10,NA,NA,NA,NA,9,NA,Sofia,1
-Observed by report date,2021-04-11,NA,NA,NA,NA,19,NA,Sofia,1
-Observed by report date,2021-04-12,NA,NA,NA,NA,0,NA,Sofia,1
-Observed by report date,2021-04-13,NA,NA,NA,NA,3,NA,Sofia,1
-Observed by report date,2021-04-14,NA,NA,NA,NA,65,NA,Sofia,1
-Observed by report date,2021-04-15,NA,NA,NA,NA,1,NA,Sofia,1
+Observed by report date,2021-04-16,NA,NA,NA,NA,578,NA,National,1
+Observed by report date,2021-04-17,NA,NA,NA,NA,588,NA,National,1
+Observed by report date,2021-04-18,NA,NA,NA,NA,593,NA,National,1
+Observed by report date,2021-04-19,NA,NA,NA,NA,404,NA,National,1
+Observed by report date,2021-04-20,NA,NA,NA,NA,390,NA,National,1
+Observed by report date,2021-04-21,NA,NA,NA,NA,477,NA,National,1
+Observed by report date,2021-04-22,NA,NA,NA,NA,706,NA,National,1
+Observed by report date,2021-04-23,NA,NA,NA,NA,487,NA,National,1
+Observed by report date,2021-04-24,NA,NA,NA,NA,485,NA,National,1
