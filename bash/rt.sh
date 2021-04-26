@@ -21,4 +21,4 @@ ssh -T mrajeev@della.princeton.edu <<HERE
     fi
 HERE
         sleep 30s    # sleep again as sometimes takes a while to write output
-        rsync -rLvzt mrajeev@della.princeton.edu:/scratch/gpfs/mrajeev/mada_rt/latest/ ~/Documents/Projects/to 
+        rsync -rLvzt mrajeev@della.princeton.edu:/scratch/gpfs/mrajeev/mada_rt/latest/ ~/Documents/Projects/to_archive/mada_rt/latest/ 

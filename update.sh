@@ -1,14 +1,14 @@
 #!/bin/bash
 
-cd Documents/Projects/mada-rt
+cd Documents/Projects/to_archive/mada_rt
 
 git checkout master
 
 # Updated data
 Rscript R/get_data.R
 
-# Run locally (takes abt an hour)
-Rscript R/rt_epiNow.R
+# Running on cluster
+sub -t 1 -n 9 -jn rt -wt 1m -sn -@ -sp R/rt_epiNow.R
 
 # Stage files to be committed
 git add latest

@@ -6,7 +6,7 @@ arg <- commandArgs(trailingOnly = TRUE)
 
 # Set up on cluster ------
 source("R/utils.R")
-set_up <- setup_cl(mpi = FALSE, type = "local")
+set_up <- setup_cl(mpi = FALSE)
 
 cl <- make_cl(set_up$ncores)
 print(paste("Cluster size:", cl_size(cl)))
@@ -25,7 +25,7 @@ library(magrittr)
 library(future)
 
 # data (do national/Analamanga/Atsinanana)
-data <- read_csv("output/mada_cases.csv")
+data <- read_csv("data/mada_cases.csv")
 
 # Filter data to a max 4 month window (excluding the past 3 days)
 # And starting from the date they began daily reporting again
@@ -158,10 +158,10 @@ rt_summary %>%
   select(-`New confirmed cases by infection date`) %>%
   mutate(date = readRDS(fp("output/rt_ests-summary/latest_date.rds")),
          date_ests = Sys.Date()) -> rt_summary
-write_cqcreate(rt_summary, fp("latest/rt_summary.csv"), write_csv)
+write_create(rt_summary, fp("latest/rt_summary.csv"), write_csv)
 
 # Parse these from subutil for where to put things
-syncto <- "~/Documents/Projects/to-archive/mada_rt/latest/"
+syncto <- "~/Documents/Projects/to_archive/mada_rt/latest/"
 syncfrom <- "mrajeev@della.princeton.edu:/scratch/gpfs/mrajeev/mada_rt/latest/"
 
 # Close out
